@@ -1,0 +1,3502 @@
+[
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "food_bin",
+    "reference_object": "knife",
+    "time_start": 230.98333333333332,
+    "time_end": 230.98333333333332,
+    "question": "At time t=231.0s, is food_bin to the left or right of knife?",
+    "answer": "right",
+    "evidence": {
+      "target_world_position": [
+        -1.501918326697754,
+        -3.2169186989168987,
+        -0.41559041408297914
+      ],
+      "reference_world_position": [
+        -1.6080420304444611,
+        -2.483880612763601,
+        -0.5300563911922269
+      ]
+    },
+    "video_id": "P01-20240202-110250"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "food_bin",
+    "reference_object": "orange_towel",
+    "time_start": 124.5,
+    "time_end": 124.5,
+    "question": "At time t=124.5s, is food_bin above or below orange_towel?",
+    "answer": "below",
+    "evidence": {
+      "target_world_position": [
+        -1.5061430038425851,
+        -3.228189769910621,
+        -0.4407177509413761
+      ],
+      "reference_world_position": [
+        -0.5580189318133515,
+        -2.3251161887470575,
+        -0.7573516289304745
+      ]
+    },
+    "video_id": "P01-20240202-110250"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "food_bin",
+    "reference_object": "",
+    "time_start": 124.5,
+    "time_end": 337.46666666666664,
+    "question": "Did food_bin move substantially between t=124.5s and t=337.5s?",
+    "answer": "no",
+    "evidence": {
+      "displacement_m": 0.055
+    },
+    "video_id": "P01-20240202-110250"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "knife",
+    "reference_object": "",
+    "time_start": 183.76666666666668,
+    "time_end": 315.76666666666665,
+    "question": "Did knife move substantially between t=183.8s and t=315.8s?",
+    "answer": "no",
+    "evidence": {
+      "displacement_m": 0.093
+    },
+    "video_id": "P01-20240202-110250"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "orange_towel",
+    "reference_object": "",
+    "time_start": 180.7,
+    "time_end": 394.3666666666667,
+    "question": "Did orange_towel move substantially between t=180.7s and t=394.4s?",
+    "answer": "no",
+    "evidence": {
+      "displacement_m": 0.132
+    },
+    "video_id": "P01-20240202-110250"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "food_bin",
+    "reference_object": "knife",
+    "time_start": 124.5,
+    "time_end": 337.46666666666664,
+    "question": "How did the position of food_bin relative to knife change from the beginning to the end of its motion?",
+    "answer": "unchanged",
+    "evidence": {
+      "start_relation": "above",
+      "end_relation": "above"
+    },
+    "video_id": "P01-20240202-110250"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "food_bin",
+    "reference_object": "knife",
+    "time_start": 124.5,
+    "time_end": 337.46666666666664,
+    "question": "Did food_bin become closer to or farther from knife across the motion interval?",
+    "answer": "closer",
+    "evidence": {
+      "start_distance_m": 0.743,
+      "end_distance_m": 0.646
+    },
+    "video_id": "P01-20240202-110250"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "food_bin",
+    "reference_object": "",
+    "time_start": 124.5,
+    "time_end": 337.46666666666664,
+    "question": "Was food_bin visible during the interval from t=124.5s to t=337.5s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 18
+    },
+    "video_id": "P01-20240202-110250"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "knife",
+    "reference_object": "",
+    "time_start": 183.76666666666668,
+    "time_end": 315.76666666666665,
+    "question": "Was knife visible during the interval from t=183.8s to t=315.8s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 8
+    },
+    "video_id": "P01-20240202-110250"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "orange_towel",
+    "reference_object": "",
+    "time_start": 180.7,
+    "time_end": 394.3666666666667,
+    "question": "Was orange_towel visible during the interval from t=180.7s to t=394.4s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 6
+    },
+    "video_id": "P01-20240202-110250"
+  },
+  {
+    "question_type": "historical_current_update",
+    "difficulty": "medium",
+    "target_object": "food_bin",
+    "reference_object": "knife",
+    "time_start": 124.5,
+    "time_end": 337.46666666666664,
+    "question": "At the start of the food_bin motion, how was knife positioned relative to food_bin, and how was it positioned by the end?",
+    "answer": "above then above",
+    "evidence": {
+      "start_relation": "above",
+      "end_relation": "above"
+    },
+    "video_id": "P01-20240202-110250"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "pasta_box",
+    "reference_object": "plate2",
+    "time_start": 156.26666666666668,
+    "time_end": 156.26666666666668,
+    "question": "At time t=156.3s, is pasta_box to the left or right of plate2?",
+    "answer": "right",
+    "evidence": {
+      "target_world_position": [
+        -0.19952628850336934,
+        -2.6414333203240403,
+        -0.5045904918731903
+      ],
+      "reference_world_position": [
+        -0.4129812971872221,
+        -2.942300618771191,
+        -0.5382483752439079
+      ]
+    },
+    "video_id": "P01-20240202-161354"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "pasta_box",
+    "reference_object": "pan3",
+    "time_start": 119.13333333333334,
+    "time_end": 119.13333333333334,
+    "question": "At time t=119.1s, is pasta_box above or below pan3?",
+    "answer": "below",
+    "evidence": {
+      "target_world_position": [
+        -0.6392132942398216,
+        -1.642915788208037,
+        -1.1157214358552814
+      ],
+      "reference_world_position": [
+        -1.4918634714951642,
+        -2.8595875772386092,
+        -0.9089120527316659
+      ]
+    },
+    "video_id": "P01-20240202-161354"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "pasta_box",
+    "reference_object": "",
+    "time_start": 119.13333333333334,
+    "time_end": 193.4,
+    "question": "Did pasta_box move substantially between t=119.1s and t=193.4s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 1.283
+    },
+    "video_id": "P01-20240202-161354"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "plate2",
+    "reference_object": "",
+    "time_start": 153.16666666666666,
+    "time_end": 312.03333333333336,
+    "question": "Did plate2 move substantially between t=153.2s and t=312.0s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 0.927
+    },
+    "video_id": "P01-20240202-161354"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "pan3",
+    "reference_object": "",
+    "time_start": 256.1666666666667,
+    "time_end": 318.43333333333334,
+    "question": "Did pan3 move substantially between t=256.2s and t=318.4s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 1.589
+    },
+    "video_id": "P01-20240202-161354"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "pasta_box",
+    "reference_object": "plate2",
+    "time_start": 119.13333333333334,
+    "time_end": 193.4,
+    "question": "How did the position of pasta_box relative to plate2 change from the beginning to the end of its motion?",
+    "answer": "unchanged",
+    "evidence": {
+      "start_relation": "below",
+      "end_relation": "below"
+    },
+    "video_id": "P01-20240202-161354"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "pasta_box",
+    "reference_object": "plate2",
+    "time_start": 119.13333333333334,
+    "time_end": 193.4,
+    "question": "Did pasta_box become closer to or farther from plate2 across the motion interval?",
+    "answer": "closer",
+    "evidence": {
+      "start_distance_m": 1.758,
+      "end_distance_m": 0.424
+    },
+    "video_id": "P01-20240202-161354"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "pasta_box",
+    "reference_object": "",
+    "time_start": 119.13333333333334,
+    "time_end": 193.4,
+    "question": "Was pasta_box visible during the interval from t=119.1s to t=193.4s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 6
+    },
+    "video_id": "P01-20240202-161354"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "plate2",
+    "reference_object": "",
+    "time_start": 153.16666666666666,
+    "time_end": 312.03333333333336,
+    "question": "Was plate2 visible during the interval from t=153.2s to t=312.0s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 5
+    },
+    "video_id": "P01-20240202-161354"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "pan3",
+    "reference_object": "",
+    "time_start": 256.1666666666667,
+    "time_end": 318.43333333333334,
+    "question": "Was pan3 visible during the interval from t=256.2s to t=318.4s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 4
+    },
+    "video_id": "P01-20240202-161354"
+  },
+  {
+    "question_type": "historical_current_update",
+    "difficulty": "medium",
+    "target_object": "pasta_box",
+    "reference_object": "plate2",
+    "time_start": 119.13333333333334,
+    "time_end": 193.4,
+    "question": "At the start of the pasta_box motion, how was plate2 positioned relative to pasta_box, and how was it positioned by the end?",
+    "answer": "below then below",
+    "evidence": {
+      "start_relation": "below",
+      "end_relation": "below"
+    },
+    "video_id": "P01-20240202-161354"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "spatula",
+    "reference_object": "pen",
+    "time_start": 430.1333333333334,
+    "time_end": 430.1333333333334,
+    "question": "At time t=430.1s, is spatula to the left or right of pen?",
+    "answer": "right",
+    "evidence": {
+      "target_world_position": [
+        -0.4317364487167255,
+        -2.5561961634346573,
+        -0.5349343042249943
+      ],
+      "reference_world_position": [
+        -0.3341292926199513,
+        -3.310616234585739,
+        -0.5462724851505478
+      ]
+    },
+    "video_id": "P01-20240202-161948"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "spatula",
+    "reference_object": "fork",
+    "time_start": 101.7,
+    "time_end": 101.7,
+    "question": "At time t=101.7s, is spatula above or below fork?",
+    "answer": "below",
+    "evidence": {
+      "target_world_position": [
+        -0.7952699734135474,
+        -1.55110182672122,
+        -0.5827880315913325
+      ],
+      "reference_world_position": [
+        -0.09254375245816648,
+        -2.536144288227736,
+        -0.48137977364895645
+      ]
+    },
+    "video_id": "P01-20240202-161948"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "spatula",
+    "reference_object": "",
+    "time_start": 101.7,
+    "time_end": 758.5666666666667,
+    "question": "Did spatula move substantially between t=101.7s and t=758.6s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 1.293
+    },
+    "video_id": "P01-20240202-161948"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "pen",
+    "reference_object": "",
+    "time_start": 3.8333333333333335,
+    "time_end": 763.5,
+    "question": "Did pen move substantially between t=3.8s and t=763.5s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 2.327
+    },
+    "video_id": "P01-20240202-161948"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "fork",
+    "reference_object": "",
+    "time_start": 109.3,
+    "time_end": 764.8,
+    "question": "Did fork move substantially between t=109.3s and t=764.8s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 0.509
+    },
+    "video_id": "P01-20240202-161948"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "spatula",
+    "reference_object": "pen",
+    "time_start": 101.7,
+    "time_end": 758.5666666666667,
+    "question": "How did the position of spatula relative to pen change from the beginning to the end of its motion?",
+    "answer": "changed",
+    "evidence": {
+      "start_relation": "left",
+      "end_relation": "below"
+    },
+    "video_id": "P01-20240202-161948"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "spatula",
+    "reference_object": "pen",
+    "time_start": 101.7,
+    "time_end": 758.5666666666667,
+    "question": "Did spatula become closer to or farther from pen across the motion interval?",
+    "answer": "closer",
+    "evidence": {
+      "start_distance_m": 0.682,
+      "end_distance_m": 0.608
+    },
+    "video_id": "P01-20240202-161948"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "spatula",
+    "reference_object": "",
+    "time_start": 101.7,
+    "time_end": 758.5666666666667,
+    "question": "Was spatula visible during the interval from t=101.7s to t=758.6s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 38
+    },
+    "video_id": "P01-20240202-161948"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "pen",
+    "reference_object": "",
+    "time_start": 3.8333333333333335,
+    "time_end": 763.5,
+    "question": "Was pen visible during the interval from t=3.8s to t=763.5s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 14
+    },
+    "video_id": "P01-20240202-161948"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "fork",
+    "reference_object": "",
+    "time_start": 109.3,
+    "time_end": 764.8,
+    "question": "Was fork visible during the interval from t=109.3s to t=764.8s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 8
+    },
+    "video_id": "P01-20240202-161948"
+  },
+  {
+    "question_type": "historical_current_update",
+    "difficulty": "medium",
+    "target_object": "spatula",
+    "reference_object": "pen",
+    "time_start": 101.7,
+    "time_end": 758.5666666666667,
+    "question": "At the start of the spatula motion, how was pen positioned relative to spatula, and how was it positioned by the end?",
+    "answer": "left then below",
+    "evidence": {
+      "start_relation": "left",
+      "end_relation": "below"
+    },
+    "video_id": "P01-20240202-161948"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "candy_floss_machine",
+    "reference_object": "kettle",
+    "time_start": 150.2,
+    "time_end": 150.2,
+    "question": "At time t=150.2s, is candy_floss_machine to the left or right of kettle?",
+    "answer": "right",
+    "evidence": {
+      "target_world_position": [
+        -1.5240997472793303,
+        -2.8810760508187307,
+        -0.44400023273003897
+      ],
+      "reference_world_position": [
+        -0.200871941731098,
+        -3.41351543508651,
+        -0.3798423259303909
+      ]
+    },
+    "video_id": "P01-20240202-171220"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "candy_floss_machine",
+    "reference_object": "plastic_bag",
+    "time_start": 133.8,
+    "time_end": 133.8,
+    "question": "At time t=133.8s, is candy_floss_machine above or below plastic_bag?",
+    "answer": "below",
+    "evidence": {
+      "target_world_position": [
+        -0.174606958334019,
+        -2.746948978376733,
+        0.5121461626355839
+      ],
+      "reference_world_position": [
+        -1.4508514479698131,
+        -3.3260981990887006,
+        -0.7841984289485182
+      ]
+    },
+    "video_id": "P01-20240202-171220"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "candy_floss_machine",
+    "reference_object": "",
+    "time_start": 133.8,
+    "time_end": 166.6,
+    "question": "Did candy_floss_machine move substantially between t=133.8s and t=166.6s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 1.665
+    },
+    "video_id": "P01-20240202-171220"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "kettle",
+    "reference_object": "",
+    "time_start": 208.93333333333334,
+    "time_end": 285.96666666666664,
+    "question": "Did kettle move substantially between t=208.9s and t=286.0s?",
+    "answer": "no",
+    "evidence": {
+      "displacement_m": 0.194
+    },
+    "video_id": "P01-20240202-171220"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "plastic_bag",
+    "reference_object": "",
+    "time_start": 172.9,
+    "time_end": 335.1666666666667,
+    "question": "Did plastic_bag move substantially between t=172.9s and t=335.2s?",
+    "answer": "no",
+    "evidence": {
+      "displacement_m": 0.048
+    },
+    "video_id": "P01-20240202-171220"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "candy_floss_machine",
+    "reference_object": "kettle",
+    "time_start": 133.8,
+    "time_end": 166.6,
+    "question": "How did the position of candy_floss_machine relative to kettle change from the beginning to the end of its motion?",
+    "answer": "changed",
+    "evidence": {
+      "start_relation": "below",
+      "end_relation": "right"
+    },
+    "video_id": "P01-20240202-171220"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "candy_floss_machine",
+    "reference_object": "kettle",
+    "time_start": 133.8,
+    "time_end": 166.6,
+    "question": "Did candy_floss_machine become closer to or farther from kettle across the motion interval?",
+    "answer": "farther",
+    "evidence": {
+      "start_distance_m": 1.114,
+      "end_distance_m": 1.598
+    },
+    "video_id": "P01-20240202-171220"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "candy_floss_machine",
+    "reference_object": "",
+    "time_start": 133.8,
+    "time_end": 166.6,
+    "question": "Was candy_floss_machine visible during the interval from t=133.8s to t=166.6s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 8
+    },
+    "video_id": "P01-20240202-171220"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "kettle",
+    "reference_object": "",
+    "time_start": 208.93333333333334,
+    "time_end": 285.96666666666664,
+    "question": "Was kettle visible during the interval from t=208.9s to t=286.0s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 6
+    },
+    "video_id": "P01-20240202-171220"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "plastic_bag",
+    "reference_object": "",
+    "time_start": 172.9,
+    "time_end": 335.1666666666667,
+    "question": "Was plastic_bag visible during the interval from t=172.9s to t=335.2s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 6
+    },
+    "video_id": "P01-20240202-171220"
+  },
+  {
+    "question_type": "historical_current_update",
+    "difficulty": "medium",
+    "target_object": "candy_floss_machine",
+    "reference_object": "kettle",
+    "time_start": 133.8,
+    "time_end": 166.6,
+    "question": "At the start of the candy_floss_machine motion, how was kettle positioned relative to candy_floss_machine, and how was it positioned by the end?",
+    "answer": "below then right",
+    "evidence": {
+      "start_relation": "below",
+      "end_relation": "right"
+    },
+    "video_id": "P01-20240202-171220"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "one_lemon",
+    "reference_object": "sponge",
+    "time_start": 153.4,
+    "time_end": 153.4,
+    "question": "At time t=153.4s, is one_lemon to the left or right of sponge?",
+    "answer": "right",
+    "evidence": {
+      "target_world_position": [
+        -1.5689731242951894,
+        -2.6337952427428526,
+        -0.5537001116266739
+      ],
+      "reference_world_position": [
+        -0.6385931275052705,
+        -4.000724069430339,
+        -0.5246553304241003
+      ]
+    },
+    "video_id": "P01-20240202-175627"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "one_lemon",
+    "reference_object": "cooled_disk",
+    "time_start": 109.46666666666667,
+    "time_end": 109.46666666666667,
+    "question": "At time t=109.5s, is one_lemon above or below cooled_disk?",
+    "answer": "below",
+    "evidence": {
+      "target_world_position": [
+        -0.5474284081645209,
+        -1.1461209227602815,
+        -0.3795434907598134
+      ],
+      "reference_world_position": [
+        -1.1177209790791771,
+        -3.6729400284555926,
+        -0.5666824044341228
+      ]
+    },
+    "video_id": "P01-20240202-175627"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "one_lemon",
+    "reference_object": "",
+    "time_start": 109.46666666666667,
+    "time_end": 197.33333333333334,
+    "question": "Did one_lemon move substantially between t=109.5s and t=197.3s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 0.323
+    },
+    "video_id": "P01-20240202-175627"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "sponge",
+    "reference_object": "",
+    "time_start": 76.76666666666667,
+    "time_end": 84.33333333333333,
+    "question": "Did sponge move substantially between t=76.8s and t=84.3s?",
+    "answer": "no",
+    "evidence": {
+      "displacement_m": 0.037
+    },
+    "video_id": "P01-20240202-175627"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "cooled_disk",
+    "reference_object": "",
+    "time_start": 49.63333333333333,
+    "time_end": 148.03333333333333,
+    "question": "Did cooled_disk move substantially between t=49.6s and t=148.0s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 1.369
+    },
+    "video_id": "P01-20240202-175627"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "one_lemon",
+    "reference_object": "sponge",
+    "time_start": 109.46666666666667,
+    "time_end": 197.33333333333334,
+    "question": "How did the position of one_lemon relative to sponge change from the beginning to the end of its motion?",
+    "answer": "unchanged",
+    "evidence": {
+      "start_relation": "below",
+      "end_relation": "below"
+    },
+    "video_id": "P01-20240202-175627"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "one_lemon",
+    "reference_object": "sponge",
+    "time_start": 109.46666666666667,
+    "time_end": 197.33333333333334,
+    "question": "Did one_lemon become closer to or farther from sponge across the motion interval?",
+    "answer": "farther",
+    "evidence": {
+      "start_distance_m": 2.842,
+      "end_distance_m": 3.156
+    },
+    "video_id": "P01-20240202-175627"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "one_lemon",
+    "reference_object": "",
+    "time_start": 109.46666666666667,
+    "time_end": 197.33333333333334,
+    "question": "Was one_lemon visible during the interval from t=109.5s to t=197.3s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 6
+    },
+    "video_id": "P01-20240202-175627"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "sponge",
+    "reference_object": "",
+    "time_start": 76.76666666666667,
+    "time_end": 84.33333333333333,
+    "question": "Was sponge visible during the interval from t=76.8s to t=84.3s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 4
+    },
+    "video_id": "P01-20240202-175627"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "cooled_disk",
+    "reference_object": "",
+    "time_start": 49.63333333333333,
+    "time_end": 148.03333333333333,
+    "question": "Was cooled_disk visible during the interval from t=49.6s to t=148.0s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 4
+    },
+    "video_id": "P01-20240202-175627"
+  },
+  {
+    "question_type": "historical_current_update",
+    "difficulty": "medium",
+    "target_object": "one_lemon",
+    "reference_object": "sponge",
+    "time_start": 109.46666666666667,
+    "time_end": 197.33333333333334,
+    "question": "At the start of the one_lemon motion, how was sponge positioned relative to one_lemon, and how was it positioned by the end?",
+    "answer": "below then below",
+    "evidence": {
+      "start_relation": "below",
+      "end_relation": "below"
+    },
+    "video_id": "P01-20240202-175627"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "bowl",
+    "reference_object": "spoon",
+    "time_start": 301.53333333333336,
+    "time_end": 301.53333333333336,
+    "question": "At time t=301.5s, is bowl to the left or right of spoon?",
+    "answer": "right",
+    "evidence": {
+      "target_world_position": [
+        -2.0838142356852076,
+        -2.103679788018672,
+        -0.3711096892540482
+      ],
+      "reference_world_position": [
+        -0.3041303341563283,
+        -2.5985660400459496,
+        -0.5001599392612647
+      ]
+    },
+    "video_id": "P01-20240202-195538"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "bowl",
+    "reference_object": "flask",
+    "time_start": 100.7,
+    "time_end": 100.7,
+    "question": "At time t=100.7s, is bowl above or below flask?",
+    "answer": "below",
+    "evidence": {
+      "target_world_position": [
+        -0.19882529093991458,
+        -2.809064987965026,
+        0.19543880566859148
+      ],
+      "reference_world_position": [
+        -0.20384007221672512,
+        -3.596119449178829,
+        -0.44758002312239803
+      ]
+    },
+    "video_id": "P01-20240202-195538"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "bowl",
+    "reference_object": "",
+    "time_start": 100.7,
+    "time_end": 502.3666666666667,
+    "question": "Did bowl move substantially between t=100.7s and t=502.4s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 1.565
+    },
+    "video_id": "P01-20240202-195538"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "spoon",
+    "reference_object": "",
+    "time_start": 123.0,
+    "time_end": 532.5,
+    "question": "Did spoon move substantially between t=123.0s and t=532.5s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 1.158
+    },
+    "video_id": "P01-20240202-195538"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "flask",
+    "reference_object": "",
+    "time_start": 12.3,
+    "time_end": 64.03333333333333,
+    "question": "Did flask move substantially between t=12.3s and t=64.0s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 0.672
+    },
+    "video_id": "P01-20240202-195538"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "bowl",
+    "reference_object": "spoon",
+    "time_start": 100.7,
+    "time_end": 502.3666666666667,
+    "question": "How did the position of bowl relative to spoon change from the beginning to the end of its motion?",
+    "answer": "unchanged",
+    "evidence": {
+      "start_relation": "above",
+      "end_relation": "above"
+    },
+    "video_id": "P01-20240202-195538"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "bowl",
+    "reference_object": "spoon",
+    "time_start": 100.7,
+    "time_end": 502.3666666666667,
+    "question": "Did bowl become closer to or farther from spoon across the motion interval?",
+    "answer": "farther",
+    "evidence": {
+      "start_distance_m": 1.437,
+      "end_distance_m": 2.064
+    },
+    "video_id": "P01-20240202-195538"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "bowl",
+    "reference_object": "",
+    "time_start": 100.7,
+    "time_end": 502.3666666666667,
+    "question": "Was bowl visible during the interval from t=100.7s to t=502.4s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 19
+    },
+    "video_id": "P01-20240202-195538"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "spoon",
+    "reference_object": "",
+    "time_start": 123.0,
+    "time_end": 532.5,
+    "question": "Was spoon visible during the interval from t=123.0s to t=532.5s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 10
+    },
+    "video_id": "P01-20240202-195538"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "flask",
+    "reference_object": "",
+    "time_start": 12.3,
+    "time_end": 64.03333333333333,
+    "question": "Was flask visible during the interval from t=12.3s to t=64.0s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 10
+    },
+    "video_id": "P01-20240202-195538"
+  },
+  {
+    "question_type": "historical_current_update",
+    "difficulty": "medium",
+    "target_object": "bowl",
+    "reference_object": "spoon",
+    "time_start": 100.7,
+    "time_end": 502.3666666666667,
+    "question": "At the start of the bowl motion, how was spoon positioned relative to bowl, and how was it positioned by the end?",
+    "answer": "above then above",
+    "evidence": {
+      "start_relation": "above",
+      "end_relation": "above"
+    },
+    "video_id": "P01-20240202-195538"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "mug",
+    "reference_object": "center_piece",
+    "time_start": 79.5,
+    "time_end": 79.5,
+    "question": "At time t=79.5s, is mug to the left or right of center_piece?",
+    "answer": "right",
+    "evidence": {
+      "target_world_position": [
+        -0.37524970705606986,
+        -1.5475267547902618,
+        -0.5236034303236354
+      ],
+      "reference_world_position": [
+        -0.8167693429703546,
+        -3.680581356646251,
+        -0.277881119951668
+      ]
+    },
+    "video_id": "P01-20240203-093333"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "mug",
+    "reference_object": "wooden_stirrer",
+    "time_start": 13.433333333333334,
+    "time_end": 13.433333333333334,
+    "question": "At time t=13.4s, is mug above or below wooden_stirrer?",
+    "answer": "above",
+    "evidence": {
+      "target_world_position": [
+        -0.4390947516143737,
+        -3.859772638865465,
+        -0.5293216811013499
+      ],
+      "reference_world_position": [
+        -0.09930662293229903,
+        -1.3904604770941238,
+        -0.3867942338123707
+      ]
+    },
+    "video_id": "P01-20240203-093333"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "mug",
+    "reference_object": "",
+    "time_start": 13.433333333333334,
+    "time_end": 145.56666666666666,
+    "question": "Did mug move substantially between t=13.4s and t=145.6s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 2.299
+    },
+    "video_id": "P01-20240203-093333"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "center_piece",
+    "reference_object": "",
+    "time_start": 135.1,
+    "time_end": 142.26666666666668,
+    "question": "Did center_piece move substantially between t=135.1s and t=142.3s?",
+    "answer": "no",
+    "evidence": {
+      "displacement_m": 0.104
+    },
+    "video_id": "P01-20240203-093333"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "wooden_stirrer",
+    "reference_object": "",
+    "time_start": 89.83333333333333,
+    "time_end": 151.7,
+    "question": "Did wooden_stirrer move substantially between t=89.8s and t=151.7s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 1.766
+    },
+    "video_id": "P01-20240203-093333"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "mug",
+    "reference_object": "center_piece",
+    "time_start": 13.433333333333334,
+    "time_end": 145.56666666666666,
+    "question": "How did the position of mug relative to center_piece change from the beginning to the end of its motion?",
+    "answer": "changed",
+    "evidence": {
+      "start_relation": "left",
+      "end_relation": "below"
+    },
+    "video_id": "P01-20240203-093333"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "mug",
+    "reference_object": "center_piece",
+    "time_start": 13.433333333333334,
+    "time_end": 145.56666666666666,
+    "question": "Did mug become closer to or farther from center_piece across the motion interval?",
+    "answer": "farther",
+    "evidence": {
+      "start_distance_m": 0.488,
+      "end_distance_m": 2.08
+    },
+    "video_id": "P01-20240203-093333"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "mug",
+    "reference_object": "",
+    "time_start": 13.433333333333334,
+    "time_end": 145.56666666666666,
+    "question": "Was mug visible during the interval from t=13.4s to t=145.6s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 5
+    },
+    "video_id": "P01-20240203-093333"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "center_piece",
+    "reference_object": "",
+    "time_start": 135.1,
+    "time_end": 142.26666666666668,
+    "question": "Was center_piece visible during the interval from t=135.1s to t=142.3s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 4
+    },
+    "video_id": "P01-20240203-093333"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "wooden_stirrer",
+    "reference_object": "",
+    "time_start": 89.83333333333333,
+    "time_end": 151.7,
+    "question": "Was wooden_stirrer visible during the interval from t=89.8s to t=151.7s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 4
+    },
+    "video_id": "P01-20240203-093333"
+  },
+  {
+    "question_type": "historical_current_update",
+    "difficulty": "medium",
+    "target_object": "mug",
+    "reference_object": "center_piece",
+    "time_start": 13.433333333333334,
+    "time_end": 145.56666666666666,
+    "question": "At the start of the mug motion, how was center_piece positioned relative to mug, and how was it positioned by the end?",
+    "answer": "left then below",
+    "evidence": {
+      "start_relation": "left",
+      "end_relation": "below"
+    },
+    "video_id": "P01-20240203-093333"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "brown_grocery_bag",
+    "reference_object": "lid",
+    "time_start": 80.51666666666667,
+    "time_end": 80.51666666666667,
+    "question": "At time t=80.5s, is brown_grocery_bag to the left or right of lid?",
+    "answer": "right",
+    "evidence": {
+      "target_world_position": [
+        -1.596265299800163,
+        -1.643660305316905,
+        -0.5250417120269152
+      ],
+      "reference_world_position": [
+        -0.5918975154564221,
+        -2.722798353643478,
+        -0.684793039879169
+      ]
+    },
+    "video_id": "P01-20240203-121517"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "brown_grocery_bag",
+    "reference_object": "glass",
+    "time_start": 2.466666666666667,
+    "time_end": 2.466666666666667,
+    "question": "At time t=2.5s, is brown_grocery_bag above or below glass?",
+    "answer": "below",
+    "evidence": {
+      "target_world_position": [
+        0.023907752073914663,
+        0.15639625765650556,
+        -1.123842065885581
+      ],
+      "reference_world_position": [
+        -0.17223146967830583,
+        -3.0656615259244635,
+        0.1941018449468847
+      ]
+    },
+    "video_id": "P01-20240203-121517"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "brown_grocery_bag",
+    "reference_object": "",
+    "time_start": 2.466666666666667,
+    "time_end": 158.56666666666666,
+    "question": "Did brown_grocery_bag move substantially between t=2.5s and t=158.6s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 0.976
+    },
+    "video_id": "P01-20240203-121517"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "lid",
+    "reference_object": "",
+    "time_start": 229.0,
+    "time_end": 309.6666666666667,
+    "question": "Did lid move substantially between t=229.0s and t=309.7s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 0.323
+    },
+    "video_id": "P01-20240203-121517"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "glass",
+    "reference_object": "",
+    "time_start": 354.4,
+    "time_end": 434.9,
+    "question": "Did glass move substantially between t=354.4s and t=434.9s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 1.699
+    },
+    "video_id": "P01-20240203-121517"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "brown_grocery_bag",
+    "reference_object": "lid",
+    "time_start": 2.466666666666667,
+    "time_end": 158.56666666666666,
+    "question": "How did the position of brown_grocery_bag relative to lid change from the beginning to the end of its motion?",
+    "answer": "unchanged",
+    "evidence": {
+      "start_relation": "below",
+      "end_relation": "below"
+    },
+    "video_id": "P01-20240203-121517"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "brown_grocery_bag",
+    "reference_object": "lid",
+    "time_start": 2.466666666666667,
+    "time_end": 158.56666666666666,
+    "question": "Did brown_grocery_bag become closer to or farther from lid across the motion interval?",
+    "answer": "closer",
+    "evidence": {
+      "start_distance_m": 2.977,
+      "end_distance_m": 2.031
+    },
+    "video_id": "P01-20240203-121517"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "brown_grocery_bag",
+    "reference_object": "",
+    "time_start": 2.466666666666667,
+    "time_end": 158.56666666666666,
+    "question": "Was brown_grocery_bag visible during the interval from t=2.5s to t=158.6s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 26
+    },
+    "video_id": "P01-20240203-121517"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "lid",
+    "reference_object": "",
+    "time_start": 229.0,
+    "time_end": 309.6666666666667,
+    "question": "Was lid visible during the interval from t=229.0s to t=309.7s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 12
+    },
+    "video_id": "P01-20240203-121517"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "glass",
+    "reference_object": "",
+    "time_start": 354.4,
+    "time_end": 434.9,
+    "question": "Was glass visible during the interval from t=354.4s to t=434.9s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 10
+    },
+    "video_id": "P01-20240203-121517"
+  },
+  {
+    "question_type": "historical_current_update",
+    "difficulty": "medium",
+    "target_object": "brown_grocery_bag",
+    "reference_object": "lid",
+    "time_start": 2.466666666666667,
+    "time_end": 158.56666666666666,
+    "question": "At the start of the brown_grocery_bag motion, how was lid positioned relative to brown_grocery_bag, and how was it positioned by the end?",
+    "answer": "below then below",
+    "evidence": {
+      "start_relation": "below",
+      "end_relation": "below"
+    },
+    "video_id": "P01-20240203-121517"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "wooden_spoon",
+    "reference_object": "packet_of_minced_meat2",
+    "time_start": 1156.35,
+    "time_end": 1156.35,
+    "question": "At time t=1156.3s, is wooden_spoon to the left or right of packet_of_minced_meat2?",
+    "answer": "right",
+    "evidence": {
+      "target_world_position": [
+        -0.4482599649017809,
+        -2.8241092689125695,
+        -0.5344064745923646
+      ],
+      "reference_world_position": [
+        -1.6057585926951807,
+        -0.6559557104049011,
+        -0.8843228131437093
+      ]
+    },
+    "video_id": "P01-20240203-123350"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "wooden_spoon",
+    "reference_object": "bowl_of_flour",
+    "time_start": 664.3666666666667,
+    "time_end": 664.3666666666667,
+    "question": "At time t=664.4s, is wooden_spoon above or below bowl_of_flour?",
+    "answer": "below",
+    "evidence": {
+      "target_world_position": [
+        -0.4132851144841948,
+        -3.6550034691485074,
+        -0.46532549473880913
+      ],
+      "reference_world_position": [
+        -0.7667683285576106,
+        -3.7660502591305787,
+        -0.6875288505286337
+      ]
+    },
+    "video_id": "P01-20240203-123350"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "wooden_spoon",
+    "reference_object": "",
+    "time_start": 664.3666666666667,
+    "time_end": 1648.3333333333333,
+    "question": "Did wooden_spoon move substantially between t=664.4s and t=1648.3s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 0.962
+    },
+    "video_id": "P01-20240203-123350"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "packet_of_minced_meat2",
+    "reference_object": "",
+    "time_start": 547.7666666666667,
+    "time_end": 1152.4666666666667,
+    "question": "Did packet_of_minced_meat2 move substantially between t=547.8s and t=1152.5s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 1.514
+    },
+    "video_id": "P01-20240203-123350"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "bowl_of_flour",
+    "reference_object": "",
+    "time_start": 18.633333333333333,
+    "time_end": 395.3666666666667,
+    "question": "Did bowl_of_flour move substantially between t=18.6s and t=395.4s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 1.218
+    },
+    "video_id": "P01-20240203-123350"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "wooden_spoon",
+    "reference_object": "packet_of_minced_meat2",
+    "time_start": 664.3666666666667,
+    "time_end": 1648.3333333333333,
+    "question": "How did the position of wooden_spoon relative to packet_of_minced_meat2 change from the beginning to the end of its motion?",
+    "answer": "unchanged",
+    "evidence": {
+      "start_relation": "above",
+      "end_relation": "above"
+    },
+    "video_id": "P01-20240203-123350"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "wooden_spoon",
+    "reference_object": "packet_of_minced_meat2",
+    "time_start": 664.3666666666667,
+    "time_end": 1648.3333333333333,
+    "question": "Did wooden_spoon become closer to or farther from packet_of_minced_meat2 across the motion interval?",
+    "answer": "closer",
+    "evidence": {
+      "start_distance_m": 2.592,
+      "end_distance_m": 2.392
+    },
+    "video_id": "P01-20240203-123350"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "wooden_spoon",
+    "reference_object": "",
+    "time_start": 664.3666666666667,
+    "time_end": 1648.3333333333333,
+    "question": "Was wooden_spoon visible during the interval from t=664.4s to t=1648.3s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 26
+    },
+    "video_id": "P01-20240203-123350"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "packet_of_minced_meat2",
+    "reference_object": "",
+    "time_start": 547.7666666666667,
+    "time_end": 1152.4666666666667,
+    "question": "Was packet_of_minced_meat2 visible during the interval from t=547.8s to t=1152.5s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 24
+    },
+    "video_id": "P01-20240203-123350"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "bowl_of_flour",
+    "reference_object": "",
+    "time_start": 18.633333333333333,
+    "time_end": 395.3666666666667,
+    "question": "Was bowl_of_flour visible during the interval from t=18.6s to t=395.4s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 22
+    },
+    "video_id": "P01-20240203-123350"
+  },
+  {
+    "question_type": "historical_current_update",
+    "difficulty": "medium",
+    "target_object": "wooden_spoon",
+    "reference_object": "packet_of_minced_meat2",
+    "time_start": 664.3666666666667,
+    "time_end": 1648.3333333333333,
+    "question": "At the start of the wooden_spoon motion, how was packet_of_minced_meat2 positioned relative to wooden_spoon, and how was it positioned by the end?",
+    "answer": "above then above",
+    "evidence": {
+      "start_relation": "above",
+      "end_relation": "above"
+    },
+    "video_id": "P01-20240203-123350"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "wooden_spatula",
+    "reference_object": "knife2",
+    "time_start": 608.7333333333333,
+    "time_end": 608.7333333333333,
+    "question": "At time t=608.7s, is wooden_spatula to the left or right of knife2?",
+    "answer": "left",
+    "evidence": {
+      "target_world_position": [
+        -0.40269902896303555,
+        -2.6890675887040216,
+        -0.5397732698974391
+      ],
+      "reference_world_position": [
+        -1.6109811963557077,
+        -2.5185448008252775,
+        -0.565503935525891
+      ]
+    },
+    "video_id": "P01-20240203-130505"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "wooden_spatula",
+    "reference_object": "pot",
+    "time_start": 390.96666666666664,
+    "time_end": 390.96666666666664,
+    "question": "At time t=391.0s, is wooden_spatula above or below pot?",
+    "answer": "above",
+    "evidence": {
+      "target_world_position": [
+        -0.40968213066872844,
+        -3.5826121810466236,
+        -0.5528263532220496
+      ],
+      "reference_world_position": [
+        -0.3045593754872781,
+        -2.3028625258701245,
+        -0.48617919287786937
+      ]
+    },
+    "video_id": "P01-20240203-130505"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "wooden_spatula",
+    "reference_object": "",
+    "time_start": 390.96666666666664,
+    "time_end": 826.5,
+    "question": "Did wooden_spatula move substantially between t=391.0s and t=826.5s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 0.945
+    },
+    "video_id": "P01-20240203-130505"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "knife2",
+    "reference_object": "",
+    "time_start": 104.06666666666666,
+    "time_end": 634.7666666666667,
+    "question": "Did knife2 move substantially between t=104.1s and t=634.8s?",
+    "answer": "no",
+    "evidence": {
+      "displacement_m": 0.17
+    },
+    "video_id": "P01-20240203-130505"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "pot",
+    "reference_object": "",
+    "time_start": 25.133333333333333,
+    "time_end": 772.1,
+    "question": "Did pot move substantially between t=25.1s and t=772.1s?",
+    "answer": "no",
+    "evidence": {
+      "displacement_m": 0.087
+    },
+    "video_id": "P01-20240203-130505"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "wooden_spatula",
+    "reference_object": "knife2",
+    "time_start": 390.96666666666664,
+    "time_end": 826.5,
+    "question": "How did the position of wooden_spatula relative to knife2 change from the beginning to the end of its motion?",
+    "answer": "unchanged",
+    "evidence": {
+      "start_relation": "left",
+      "end_relation": "left"
+    },
+    "video_id": "P01-20240203-130505"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "wooden_spatula",
+    "reference_object": "knife2",
+    "time_start": 390.96666666666664,
+    "time_end": 826.5,
+    "question": "Did wooden_spatula become closer to or farther from knife2 across the motion interval?",
+    "answer": "closer",
+    "evidence": {
+      "start_distance_m": 1.639,
+      "end_distance_m": 1.277
+    },
+    "video_id": "P01-20240203-130505"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "wooden_spatula",
+    "reference_object": "",
+    "time_start": 390.96666666666664,
+    "time_end": 826.5,
+    "question": "Was wooden_spatula visible during the interval from t=391.0s to t=826.5s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 16
+    },
+    "video_id": "P01-20240203-130505"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "knife2",
+    "reference_object": "",
+    "time_start": 104.06666666666666,
+    "time_end": 634.7666666666667,
+    "question": "Was knife2 visible during the interval from t=104.1s to t=634.8s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 16
+    },
+    "video_id": "P01-20240203-130505"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "pot",
+    "reference_object": "",
+    "time_start": 25.133333333333333,
+    "time_end": 772.1,
+    "question": "Was pot visible during the interval from t=25.1s to t=772.1s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 16
+    },
+    "video_id": "P01-20240203-130505"
+  },
+  {
+    "question_type": "historical_current_update",
+    "difficulty": "medium",
+    "target_object": "wooden_spatula",
+    "reference_object": "knife2",
+    "time_start": 390.96666666666664,
+    "time_end": 826.5,
+    "question": "At the start of the wooden_spatula motion, how was knife2 positioned relative to wooden_spatula, and how was it positioned by the end?",
+    "answer": "left then left",
+    "evidence": {
+      "start_relation": "left",
+      "end_relation": "left"
+    },
+    "video_id": "P01-20240203-130505"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "blade",
+    "reference_object": "cover_of_food_processer_bowl",
+    "time_start": 825.3166666666666,
+    "time_end": 825.3166666666666,
+    "question": "At time t=825.3s, is blade to the left or right of cover_of_food_processer_bowl?",
+    "answer": "right",
+    "evidence": {
+      "target_world_position": [
+        -1.8846203889708824,
+        -2.530811537022016,
+        -0.2748146192350057
+      ],
+      "reference_world_position": [
+        -1.915712068598582,
+        -2.5669301858427827,
+        -0.47793449627627216
+      ]
+    },
+    "video_id": "P01-20240203-132119"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "blade",
+    "reference_object": "sponge",
+    "time_start": 594.1666666666666,
+    "time_end": 594.1666666666666,
+    "question": "At time t=594.2s, is blade above or below sponge?",
+    "answer": "below",
+    "evidence": {
+      "target_world_position": [
+        -0.7728311430147438,
+        -3.154232867464036,
+        -0.9336549265330045
+      ],
+      "reference_world_position": [
+        -0.9042787984615974,
+        -4.010005682500598,
+        -0.5208991634488281
+      ]
+    },
+    "video_id": "P01-20240203-132119"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "blade",
+    "reference_object": "",
+    "time_start": 594.1666666666666,
+    "time_end": 1056.4666666666667,
+    "question": "Did blade move substantially between t=594.2s and t=1056.5s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 0.932
+    },
+    "video_id": "P01-20240203-132119"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "cover_of_food_processer_bowl",
+    "reference_object": "",
+    "time_start": 612.9666666666667,
+    "time_end": 1114.2,
+    "question": "Did cover_of_food_processer_bowl move substantially between t=613.0s and t=1114.2s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 0.654
+    },
+    "video_id": "P01-20240203-132119"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "sponge",
+    "reference_object": "",
+    "time_start": 257.1,
+    "time_end": 753.6333333333333,
+    "question": "Did sponge move substantially between t=257.1s and t=753.6s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 0.283
+    },
+    "video_id": "P01-20240203-132119"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "blade",
+    "reference_object": "cover_of_food_processer_bowl",
+    "time_start": 594.1666666666666,
+    "time_end": 1056.4666666666667,
+    "question": "How did the position of blade relative to cover_of_food_processer_bowl change from the beginning to the end of its motion?",
+    "answer": "changed",
+    "evidence": {
+      "start_relation": "left",
+      "end_relation": "above"
+    },
+    "video_id": "P01-20240203-132119"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "blade",
+    "reference_object": "cover_of_food_processer_bowl",
+    "time_start": 594.1666666666666,
+    "time_end": 1056.4666666666667,
+    "question": "Did blade become closer to or farther from cover_of_food_processer_bowl across the motion interval?",
+    "answer": "closer",
+    "evidence": {
+      "start_distance_m": 1.533,
+      "end_distance_m": 0.148
+    },
+    "video_id": "P01-20240203-132119"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "blade",
+    "reference_object": "",
+    "time_start": 594.1666666666666,
+    "time_end": 1056.4666666666667,
+    "question": "Was blade visible during the interval from t=594.2s to t=1056.5s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 28
+    },
+    "video_id": "P01-20240203-132119"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "cover_of_food_processer_bowl",
+    "reference_object": "",
+    "time_start": 612.9666666666667,
+    "time_end": 1114.2,
+    "question": "Was cover_of_food_processer_bowl visible during the interval from t=613.0s to t=1114.2s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 25
+    },
+    "video_id": "P01-20240203-132119"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "sponge",
+    "reference_object": "",
+    "time_start": 257.1,
+    "time_end": 753.6333333333333,
+    "question": "Was sponge visible during the interval from t=257.1s to t=753.6s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 16
+    },
+    "video_id": "P01-20240203-132119"
+  },
+  {
+    "question_type": "historical_current_update",
+    "difficulty": "medium",
+    "target_object": "blade",
+    "reference_object": "cover_of_food_processer_bowl",
+    "time_start": 594.1666666666666,
+    "time_end": 1056.4666666666667,
+    "question": "At the start of the blade motion, how was cover_of_food_processer_bowl positioned relative to blade, and how was it positioned by the end?",
+    "answer": "left then above",
+    "evidence": {
+      "start_relation": "left",
+      "end_relation": "above"
+    },
+    "video_id": "P01-20240203-132119"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "wooden_spoon",
+    "reference_object": "large_bowl",
+    "time_start": 604.3166666666666,
+    "time_end": 604.3166666666666,
+    "question": "At time t=604.3s, is wooden_spoon to the left or right of large_bowl?",
+    "answer": "left",
+    "evidence": {
+      "target_world_position": [
+        -0.3387657281768641,
+        -2.312370916718776,
+        -0.4766789123667098
+      ],
+      "reference_world_position": [
+        -1.6005742997351682,
+        -2.715218927116875,
+        -0.4487924453420685
+      ]
+    },
+    "video_id": "P01-20240203-135502"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "wooden_spoon",
+    "reference_object": "notepad",
+    "time_start": 114.53333333333333,
+    "time_end": 114.53333333333333,
+    "question": "At time t=114.5s, is wooden_spoon above or below notepad?",
+    "answer": "below",
+    "evidence": {
+      "target_world_position": [
+        -0.4946518917357293,
+        -2.5587096017024185,
+        -0.678157942917836
+      ],
+      "reference_world_position": [
+        -1.5976903413007462,
+        -2.1367923713610733,
+        -0.5631953555752399
+      ]
+    },
+    "video_id": "P01-20240203-135502"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "wooden_spoon",
+    "reference_object": "",
+    "time_start": 114.53333333333333,
+    "time_end": 1094.1,
+    "question": "Did wooden_spoon move substantially between t=114.5s and t=1094.1s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 1.333
+    },
+    "video_id": "P01-20240203-135502"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "large_bowl",
+    "reference_object": "",
+    "time_start": 67.16666666666667,
+    "time_end": 1094.1,
+    "question": "Did large_bowl move substantially between t=67.2s and t=1094.1s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 1.657
+    },
+    "video_id": "P01-20240203-135502"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "notepad",
+    "reference_object": "",
+    "time_start": 171.2,
+    "time_end": 1434.5666666666666,
+    "question": "Did notepad move substantially between t=171.2s and t=1434.6s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 0.573
+    },
+    "video_id": "P01-20240203-135502"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "wooden_spoon",
+    "reference_object": "large_bowl",
+    "time_start": 114.53333333333333,
+    "time_end": 1094.1,
+    "question": "How did the position of wooden_spoon relative to large_bowl change from the beginning to the end of its motion?",
+    "answer": "changed",
+    "evidence": {
+      "start_relation": "left",
+      "end_relation": "right"
+    },
+    "video_id": "P01-20240203-135502"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "wooden_spoon",
+    "reference_object": "large_bowl",
+    "time_start": 114.53333333333333,
+    "time_end": 1094.1,
+    "question": "Did wooden_spoon become closer to or farther from large_bowl across the motion interval?",
+    "answer": "closer",
+    "evidence": {
+      "start_distance_m": 1.116,
+      "end_distance_m": 0.095
+    },
+    "video_id": "P01-20240203-135502"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "wooden_spoon",
+    "reference_object": "",
+    "time_start": 114.53333333333333,
+    "time_end": 1094.1,
+    "question": "Was wooden_spoon visible during the interval from t=114.5s to t=1094.1s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 34
+    },
+    "video_id": "P01-20240203-135502"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "large_bowl",
+    "reference_object": "",
+    "time_start": 67.16666666666667,
+    "time_end": 1094.1,
+    "question": "Was large_bowl visible during the interval from t=67.2s to t=1094.1s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 23
+    },
+    "video_id": "P01-20240203-135502"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "notepad",
+    "reference_object": "",
+    "time_start": 171.2,
+    "time_end": 1434.5666666666666,
+    "question": "Was notepad visible during the interval from t=171.2s to t=1434.6s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 18
+    },
+    "video_id": "P01-20240203-135502"
+  },
+  {
+    "question_type": "historical_current_update",
+    "difficulty": "medium",
+    "target_object": "wooden_spoon",
+    "reference_object": "large_bowl",
+    "time_start": 114.53333333333333,
+    "time_end": 1094.1,
+    "question": "At the start of the wooden_spoon motion, how was large_bowl positioned relative to wooden_spoon, and how was it positioned by the end?",
+    "answer": "left then right",
+    "evidence": {
+      "start_relation": "left",
+      "end_relation": "right"
+    },
+    "video_id": "P01-20240203-135502"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "sponge",
+    "reference_object": "food_processor_motor",
+    "time_start": 197.25,
+    "time_end": 197.25,
+    "question": "At time t=197.2s, is sponge to the left or right of food_processor_motor?",
+    "answer": "right",
+    "evidence": {
+      "target_world_position": [
+        -1.0728197424140382,
+        -3.678113005970215,
+        -0.4923066714093115
+      ],
+      "reference_world_position": [
+        -1.5568959743476873,
+        -2.9754200939542486,
+        -0.4657680738097625
+      ]
+    },
+    "video_id": "P01-20240203-150506"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "sponge",
+    "reference_object": "bowl",
+    "time_start": 73.53333333333333,
+    "time_end": 73.53333333333333,
+    "question": "At time t=73.5s, is sponge above or below bowl?",
+    "answer": "below",
+    "evidence": {
+      "target_world_position": [
+        -0.8992147354151147,
+        -3.96942046304104,
+        -0.5280667755972827
+      ],
+      "reference_world_position": [
+        -0.7808753351289149,
+        -3.858854015668574,
+        -0.676446257302282
+      ]
+    },
+    "video_id": "P01-20240203-150506"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "sponge",
+    "reference_object": "",
+    "time_start": 73.53333333333333,
+    "time_end": 320.96666666666664,
+    "question": "Did sponge move substantially between t=73.5s and t=321.0s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 0.263
+    },
+    "video_id": "P01-20240203-150506"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "food_processor_motor",
+    "reference_object": "",
+    "time_start": 487.3666666666667,
+    "time_end": 508.1666666666667,
+    "question": "Did food_processor_motor move substantially between t=487.4s and t=508.2s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 0.582
+    },
+    "video_id": "P01-20240203-150506"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "bowl",
+    "reference_object": "",
+    "time_start": 180.2,
+    "time_end": 302.26666666666665,
+    "question": "Did bowl move substantially between t=180.2s and t=302.3s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 1.069
+    },
+    "video_id": "P01-20240203-150506"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "sponge",
+    "reference_object": "food_processor_motor",
+    "time_start": 73.53333333333333,
+    "time_end": 320.96666666666664,
+    "question": "How did the position of sponge relative to food_processor_motor change from the beginning to the end of its motion?",
+    "answer": "unchanged",
+    "evidence": {
+      "start_relation": "above",
+      "end_relation": "above"
+    },
+    "video_id": "P01-20240203-150506"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "sponge",
+    "reference_object": "food_processor_motor",
+    "time_start": 73.53333333333333,
+    "time_end": 320.96666666666664,
+    "question": "Did sponge become closer to or farther from food_processor_motor across the motion interval?",
+    "answer": "farther",
+    "evidence": {
+      "start_distance_m": 1.194,
+      "end_distance_m": 1.512
+    },
+    "video_id": "P01-20240203-150506"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "sponge",
+    "reference_object": "",
+    "time_start": 73.53333333333333,
+    "time_end": 320.96666666666664,
+    "question": "Was sponge visible during the interval from t=73.5s to t=321.0s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 22
+    },
+    "video_id": "P01-20240203-150506"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "food_processor_motor",
+    "reference_object": "",
+    "time_start": 487.3666666666667,
+    "time_end": 508.1666666666667,
+    "question": "Was food_processor_motor visible during the interval from t=487.4s to t=508.2s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 10
+    },
+    "video_id": "P01-20240203-150506"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "bowl",
+    "reference_object": "",
+    "time_start": 180.2,
+    "time_end": 302.26666666666665,
+    "question": "Was bowl visible during the interval from t=180.2s to t=302.3s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 6
+    },
+    "video_id": "P01-20240203-150506"
+  },
+  {
+    "question_type": "historical_current_update",
+    "difficulty": "medium",
+    "target_object": "sponge",
+    "reference_object": "food_processor_motor",
+    "time_start": 73.53333333333333,
+    "time_end": 320.96666666666664,
+    "question": "At the start of the sponge motion, how was food_processor_motor positioned relative to sponge, and how was it positioned by the end?",
+    "answer": "above then above",
+    "evidence": {
+      "start_relation": "above",
+      "end_relation": "above"
+    },
+    "video_id": "P01-20240203-150506"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "red_glove",
+    "reference_object": "second_tray",
+    "time_start": 74.33333333333333,
+    "time_end": 74.33333333333333,
+    "question": "At time t=74.3s, is red_glove to the left or right of second_tray?",
+    "answer": "right",
+    "evidence": {
+      "target_world_position": [
+        -0.5168771808225583,
+        -2.470619245279045,
+        -0.4288774368793053
+      ],
+      "reference_world_position": [
+        -0.2907135934301748,
+        -2.3292845968957567,
+        -1.1767384314072706
+      ]
+    },
+    "video_id": "P01-20240203-152323"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "red_glove",
+    "reference_object": "meat_pie2",
+    "time_start": 20.1,
+    "time_end": 20.1,
+    "question": "At time t=20.1s, is red_glove above or below meat_pie2?",
+    "answer": "above",
+    "evidence": {
+      "target_world_position": [
+        -1.1107747596466124,
+        -4.037621548170112,
+        -0.28821543463562027
+      ],
+      "reference_world_position": [
+        -0.4532698353758619,
+        -2.6775371461039943,
+        -0.5335107266482781
+      ]
+    },
+    "video_id": "P01-20240203-152323"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "red_glove",
+    "reference_object": "",
+    "time_start": 20.1,
+    "time_end": 128.56666666666666,
+    "question": "Did red_glove move substantially between t=20.1s and t=128.6s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 1.27
+    },
+    "video_id": "P01-20240203-152323"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "second_tray",
+    "reference_object": "",
+    "time_start": 120.26666666666667,
+    "time_end": 124.93333333333334,
+    "question": "Did second_tray move substantially between t=120.3s and t=124.9s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 0.311
+    },
+    "video_id": "P01-20240203-152323"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "meat_pie2",
+    "reference_object": "",
+    "time_start": 105.2,
+    "time_end": 133.9,
+    "question": "Did meat_pie2 move substantially between t=105.2s and t=133.9s?",
+    "answer": "no",
+    "evidence": {
+      "displacement_m": 0.121
+    },
+    "video_id": "P01-20240203-152323"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "red_glove",
+    "reference_object": "second_tray",
+    "time_start": 20.1,
+    "time_end": 128.56666666666666,
+    "question": "How did the position of red_glove relative to second_tray change from the beginning to the end of its motion?",
+    "answer": "unchanged",
+    "evidence": {
+      "start_relation": "above",
+      "end_relation": "above"
+    },
+    "video_id": "P01-20240203-152323"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "red_glove",
+    "reference_object": "second_tray",
+    "time_start": 20.1,
+    "time_end": 128.56666666666666,
+    "question": "Did red_glove become closer to or farther from second_tray across the motion interval?",
+    "answer": "closer",
+    "evidence": {
+      "start_distance_m": 2.093,
+      "end_distance_m": 0.913
+    },
+    "video_id": "P01-20240203-152323"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "red_glove",
+    "reference_object": "",
+    "time_start": 20.1,
+    "time_end": 128.56666666666666,
+    "question": "Was red_glove visible during the interval from t=20.1s to t=128.6s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 8
+    },
+    "video_id": "P01-20240203-152323"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "second_tray",
+    "reference_object": "",
+    "time_start": 120.26666666666667,
+    "time_end": 124.93333333333334,
+    "question": "Was second_tray visible during the interval from t=120.3s to t=124.9s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 6
+    },
+    "video_id": "P01-20240203-152323"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "meat_pie2",
+    "reference_object": "",
+    "time_start": 105.2,
+    "time_end": 133.9,
+    "question": "Was meat_pie2 visible during the interval from t=105.2s to t=133.9s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 6
+    },
+    "video_id": "P01-20240203-152323"
+  },
+  {
+    "question_type": "historical_current_update",
+    "difficulty": "medium",
+    "target_object": "red_glove",
+    "reference_object": "second_tray",
+    "time_start": 20.1,
+    "time_end": 128.56666666666666,
+    "question": "At the start of the red_glove motion, how was second_tray positioned relative to red_glove, and how was it positioned by the end?",
+    "answer": "above then above",
+    "evidence": {
+      "start_relation": "above",
+      "end_relation": "above"
+    },
+    "video_id": "P01-20240203-152323"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "foil2",
+    "reference_object": "tray",
+    "time_start": 169.5,
+    "time_end": 169.5,
+    "question": "At time t=169.5s, is foil2 to the left or right of tray?",
+    "answer": "right",
+    "evidence": {
+      "target_world_position": [
+        -1.5650917012517445,
+        -1.8528492217836043,
+        -0.49099306238502477
+      ],
+      "reference_world_position": [
+        -0.8257406571550225,
+        -3.8040147792851506,
+        -0.6615234366697967
+      ]
+    },
+    "video_id": "P01-20240203-152956"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "foil2",
+    "reference_object": "unrolled_foil",
+    "time_start": 164.63333333333333,
+    "time_end": 164.63333333333333,
+    "question": "At time t=164.6s, is foil2 above or below unrolled_foil?",
+    "answer": "below",
+    "evidence": {
+      "target_world_position": [
+        -1.558532541417763,
+        -1.8360676388891939,
+        -0.5376912991519408
+      ],
+      "reference_world_position": [
+        -1.5384395225842957,
+        -1.874577646862152,
+        -0.5948970464443758
+      ]
+    },
+    "video_id": "P01-20240203-152956"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "foil2",
+    "reference_object": "",
+    "time_start": 164.63333333333333,
+    "time_end": 174.36666666666667,
+    "question": "Did foil2 move substantially between t=164.6s and t=174.4s?",
+    "answer": "no",
+    "evidence": {
+      "displacement_m": 0.027
+    },
+    "video_id": "P01-20240203-152956"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "tray",
+    "reference_object": "",
+    "time_start": 13.033333333333333,
+    "time_end": 129.46666666666667,
+    "question": "Did tray move substantially between t=13.0s and t=129.5s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 1.724
+    },
+    "video_id": "P01-20240203-152956"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "unrolled_foil",
+    "reference_object": "",
+    "time_start": 143.4,
+    "time_end": 153.46666666666667,
+    "question": "Did unrolled_foil move substantially between t=143.4s and t=153.5s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 0.554
+    },
+    "video_id": "P01-20240203-152956"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "foil2",
+    "reference_object": "tray",
+    "time_start": 164.63333333333333,
+    "time_end": 174.36666666666667,
+    "question": "How did the position of foil2 relative to tray change from the beginning to the end of its motion?",
+    "answer": "changed",
+    "evidence": {
+      "start_relation": "right",
+      "end_relation": "below"
+    },
+    "video_id": "P01-20240203-152956"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "foil2",
+    "reference_object": "tray",
+    "time_start": 164.63333333333333,
+    "time_end": 174.36666666666667,
+    "question": "Did foil2 become closer to or farther from tray across the motion interval?",
+    "answer": "farther",
+    "evidence": {
+      "start_distance_m": 1.148,
+      "end_distance_m": 2.105
+    },
+    "video_id": "P01-20240203-152956"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "foil2",
+    "reference_object": "",
+    "time_start": 164.63333333333333,
+    "time_end": 174.36666666666667,
+    "question": "Was foil2 visible during the interval from t=164.6s to t=174.4s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 6
+    },
+    "video_id": "P01-20240203-152956"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "tray",
+    "reference_object": "",
+    "time_start": 13.033333333333333,
+    "time_end": 129.46666666666667,
+    "question": "Was tray visible during the interval from t=13.0s to t=129.5s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 6
+    },
+    "video_id": "P01-20240203-152956"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "unrolled_foil",
+    "reference_object": "",
+    "time_start": 143.4,
+    "time_end": 153.46666666666667,
+    "question": "Was unrolled_foil visible during the interval from t=143.4s to t=153.5s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 5
+    },
+    "video_id": "P01-20240203-152956"
+  },
+  {
+    "question_type": "historical_current_update",
+    "difficulty": "medium",
+    "target_object": "foil2",
+    "reference_object": "tray",
+    "time_start": 164.63333333333333,
+    "time_end": 174.36666666666667,
+    "question": "At the start of the foil2 motion, how was tray positioned relative to foil2, and how was it positioned by the end?",
+    "answer": "right then below",
+    "evidence": {
+      "start_relation": "right",
+      "end_relation": "below"
+    },
+    "video_id": "P01-20240203-152956"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "foil_paper",
+    "reference_object": "pie2pie2",
+    "time_start": 99.63333333333333,
+    "time_end": 99.63333333333333,
+    "question": "At time t=99.6s, is foil_paper to the left or right of pie2pie2?",
+    "answer": "right",
+    "evidence": {
+      "target_world_position": [
+        -1.4094782033719162,
+        -2.721678498594338,
+        -0.6523016869978111
+      ],
+      "reference_world_position": [
+        -0.4067596291129881,
+        -2.508618380761198,
+        -0.5358523770464909
+      ]
+    },
+    "video_id": "P01-20240203-161757"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "foil_paper",
+    "reference_object": "tupperware3",
+    "time_start": 28.666666666666668,
+    "time_end": 28.666666666666668,
+    "question": "At time t=28.7s, is foil_paper above or below tupperware3?",
+    "answer": "below",
+    "evidence": {
+      "target_world_position": [
+        -0.4249611567266362,
+        -1.0115076834289605,
+        -0.04449946699089644
+      ],
+      "reference_world_position": [
+        -1.2057474685653793,
+        -3.650874603877178,
+        -0.5559839856877494
+      ]
+    },
+    "video_id": "P01-20240203-161757"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "foil_paper",
+    "reference_object": "",
+    "time_start": 28.666666666666668,
+    "time_end": 170.6,
+    "question": "Did foil_paper move substantially between t=28.7s and t=170.6s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 1.372
+    },
+    "video_id": "P01-20240203-161757"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "pie2pie2",
+    "reference_object": "",
+    "time_start": 185.86666666666667,
+    "time_end": 194.93333333333334,
+    "question": "Did pie2pie2 move substantially between t=185.9s and t=194.9s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 0.28
+    },
+    "video_id": "P01-20240203-161757"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "tupperware3",
+    "reference_object": "",
+    "time_start": 181.26666666666668,
+    "time_end": 210.26666666666668,
+    "question": "Did tupperware3 move substantially between t=181.3s and t=210.3s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 2.662
+    },
+    "video_id": "P01-20240203-161757"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "foil_paper",
+    "reference_object": "pie2pie2",
+    "time_start": 28.666666666666668,
+    "time_end": 170.6,
+    "question": "How did the position of foil_paper relative to pie2pie2 change from the beginning to the end of its motion?",
+    "answer": "unchanged",
+    "evidence": {
+      "start_relation": "below",
+      "end_relation": "below"
+    },
+    "video_id": "P01-20240203-161757"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "foil_paper",
+    "reference_object": "pie2pie2",
+    "time_start": 28.666666666666668,
+    "time_end": 170.6,
+    "question": "Did foil_paper become closer to or farther from pie2pie2 across the motion interval?",
+    "answer": "farther",
+    "evidence": {
+      "start_distance_m": 1.576,
+      "end_distance_m": 2.394
+    },
+    "video_id": "P01-20240203-161757"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "foil_paper",
+    "reference_object": "",
+    "time_start": 28.666666666666668,
+    "time_end": 170.6,
+    "question": "Was foil_paper visible during the interval from t=28.7s to t=170.6s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 10
+    },
+    "video_id": "P01-20240203-161757"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "pie2pie2",
+    "reference_object": "",
+    "time_start": 185.86666666666667,
+    "time_end": 194.93333333333334,
+    "question": "Was pie2pie2 visible during the interval from t=185.9s to t=194.9s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 8
+    },
+    "video_id": "P01-20240203-161757"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "tupperware3",
+    "reference_object": "",
+    "time_start": 181.26666666666668,
+    "time_end": 210.26666666666668,
+    "question": "Was tupperware3 visible during the interval from t=181.3s to t=210.3s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 8
+    },
+    "video_id": "P01-20240203-161757"
+  },
+  {
+    "question_type": "historical_current_update",
+    "difficulty": "medium",
+    "target_object": "foil_paper",
+    "reference_object": "pie2pie2",
+    "time_start": 28.666666666666668,
+    "time_end": 170.6,
+    "question": "At the start of the foil_paper motion, how was pie2pie2 positioned relative to foil_paper, and how was it positioned by the end?",
+    "answer": "below then below",
+    "evidence": {
+      "start_relation": "below",
+      "end_relation": "below"
+    },
+    "video_id": "P01-20240203-161757"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "lid",
+    "reference_object": "pot",
+    "time_start": 31.866666666666667,
+    "time_end": 31.866666666666667,
+    "question": "At time t=31.9s, is lid to the left or right of pot?",
+    "answer": "right",
+    "evidence": {
+      "target_world_position": [
+        -0.31404929214103283,
+        -2.0536760991476104,
+        -0.4968225896050495
+      ],
+      "reference_world_position": [
+        -0.2473144603943862,
+        -2.267056739334404,
+        -0.5015000805714218
+      ]
+    },
+    "video_id": "P01-20240203-184045"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "lid",
+    "reference_object": "heat_diffuser",
+    "time_start": 21.433333333333334,
+    "time_end": 21.433333333333334,
+    "question": "At time t=21.4s, is lid above or below heat_diffuser?",
+    "answer": "below",
+    "evidence": {
+      "target_world_position": [
+        -0.3175956870562998,
+        -2.2886375651367175,
+        -0.45713082922649556
+      ],
+      "reference_world_position": [
+        -1.7320031571459102,
+        -1.0133373412186064,
+        -0.5158006770646505
+      ]
+    },
+    "video_id": "P01-20240203-184045"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "lid",
+    "reference_object": "",
+    "time_start": 21.433333333333334,
+    "time_end": 42.3,
+    "question": "Did lid move substantially between t=21.4s and t=42.3s?",
+    "answer": "no",
+    "evidence": {
+      "displacement_m": 0.02
+    },
+    "video_id": "P01-20240203-184045"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "pot",
+    "reference_object": "",
+    "time_start": 10.0,
+    "time_end": 40.3,
+    "question": "Did pot move substantially between t=10.0s and t=40.3s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 1.514
+    },
+    "video_id": "P01-20240203-184045"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "heat_diffuser",
+    "reference_object": "",
+    "time_start": 45.6,
+    "time_end": 48.53333333333333,
+    "question": "Did heat_diffuser move substantially between t=45.6s and t=48.5s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 1.664
+    },
+    "video_id": "P01-20240203-184045"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "lid",
+    "reference_object": "pot",
+    "time_start": 21.433333333333334,
+    "time_end": 42.3,
+    "question": "How did the position of lid relative to pot change from the beginning to the end of its motion?",
+    "answer": "unchanged",
+    "evidence": {
+      "start_relation": "above",
+      "end_relation": "above"
+    },
+    "video_id": "P01-20240203-184045"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "lid",
+    "reference_object": "pot",
+    "time_start": 21.433333333333334,
+    "time_end": 42.3,
+    "question": "Did lid become closer to or farther from pot across the motion interval?",
+    "answer": "closer",
+    "evidence": {
+      "start_distance_m": 1.528,
+      "end_distance_m": 0.09
+    },
+    "video_id": "P01-20240203-184045"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "lid",
+    "reference_object": "",
+    "time_start": 21.433333333333334,
+    "time_end": 42.3,
+    "question": "Was lid visible during the interval from t=21.4s to t=42.3s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 4
+    },
+    "video_id": "P01-20240203-184045"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "pot",
+    "reference_object": "",
+    "time_start": 10.0,
+    "time_end": 40.3,
+    "question": "Was pot visible during the interval from t=10.0s to t=40.3s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 4
+    },
+    "video_id": "P01-20240203-184045"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "heat_diffuser",
+    "reference_object": "",
+    "time_start": 45.6,
+    "time_end": 48.53333333333333,
+    "question": "Was heat_diffuser visible during the interval from t=45.6s to t=48.5s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 2
+    },
+    "video_id": "P01-20240203-184045"
+  },
+  {
+    "question_type": "historical_current_update",
+    "difficulty": "medium",
+    "target_object": "lid",
+    "reference_object": "pot",
+    "time_start": 21.433333333333334,
+    "time_end": 42.3,
+    "question": "At the start of the lid motion, how was pot positioned relative to lid, and how was it positioned by the end?",
+    "answer": "above then above",
+    "evidence": {
+      "start_relation": "above",
+      "end_relation": "above"
+    },
+    "video_id": "P01-20240203-184045"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "sponge",
+    "reference_object": "bowl",
+    "time_start": 1029.3333333333335,
+    "time_end": 1029.3333333333335,
+    "question": "At time t=1029.3s, is sponge to the left or right of bowl?",
+    "answer": "right",
+    "evidence": {
+      "target_world_position": [
+        -0.6989074900800233,
+        -3.8510878655099927,
+        -0.4354437801003691
+      ],
+      "reference_world_position": [
+        -0.4381583813685441,
+        -0.8687045834314409,
+        0.18133626111520096
+      ]
+    },
+    "video_id": "P01-20240203-184214"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "sponge",
+    "reference_object": "lid_of_pot",
+    "time_start": 936.2,
+    "time_end": 936.2,
+    "question": "At time t=936.2s, is sponge above or below lid_of_pot?",
+    "answer": "above",
+    "evidence": {
+      "target_world_position": [
+        -1.1346048097395147,
+        -3.809924061532017,
+        -0.5598850502752852
+      ],
+      "reference_world_position": [
+        -0.1646103652283258,
+        -2.283116509093147,
+        -0.3966759157116647
+      ]
+    },
+    "video_id": "P01-20240203-184214"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "sponge",
+    "reference_object": "",
+    "time_start": 936.2,
+    "time_end": 1122.4666666666667,
+    "question": "Did sponge move substantially between t=936.2s and t=1122.5s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 0.365
+    },
+    "video_id": "P01-20240203-184214"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "bowl",
+    "reference_object": "",
+    "time_start": 20.033333333333335,
+    "time_end": 725.3,
+    "question": "Did bowl move substantially between t=20.0s and t=725.3s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 2.289
+    },
+    "video_id": "P01-20240203-184214"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "lid_of_pot",
+    "reference_object": "",
+    "time_start": 371.5,
+    "time_end": 1289.2666666666667,
+    "question": "Did lid_of_pot move substantially between t=371.5s and t=1289.3s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 1.757
+    },
+    "video_id": "P01-20240203-184214"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "sponge",
+    "reference_object": "bowl",
+    "time_start": 936.2,
+    "time_end": 1122.4666666666667,
+    "question": "How did the position of sponge relative to bowl change from the beginning to the end of its motion?",
+    "answer": "unchanged",
+    "evidence": {
+      "start_relation": "above",
+      "end_relation": "above"
+    },
+    "video_id": "P01-20240203-184214"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "sponge",
+    "reference_object": "bowl",
+    "time_start": 936.2,
+    "time_end": 1122.4666666666667,
+    "question": "Did sponge become closer to or farther from bowl across the motion interval?",
+    "answer": "farther",
+    "evidence": {
+      "start_distance_m": 1.3,
+      "end_distance_m": 3.249
+    },
+    "video_id": "P01-20240203-184214"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "sponge",
+    "reference_object": "",
+    "time_start": 936.2,
+    "time_end": 1122.4666666666667,
+    "question": "Was sponge visible during the interval from t=936.2s to t=1122.5s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 17
+    },
+    "video_id": "P01-20240203-184214"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "bowl",
+    "reference_object": "",
+    "time_start": 20.033333333333335,
+    "time_end": 725.3,
+    "question": "Was bowl visible during the interval from t=20.0s to t=725.3s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 16
+    },
+    "video_id": "P01-20240203-184214"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "lid_of_pot",
+    "reference_object": "",
+    "time_start": 371.5,
+    "time_end": 1289.2666666666667,
+    "question": "Was lid_of_pot visible during the interval from t=371.5s to t=1289.3s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 12
+    },
+    "video_id": "P01-20240203-184214"
+  },
+  {
+    "question_type": "historical_current_update",
+    "difficulty": "medium",
+    "target_object": "sponge",
+    "reference_object": "bowl",
+    "time_start": 936.2,
+    "time_end": 1122.4666666666667,
+    "question": "At the start of the sponge motion, how was bowl positioned relative to sponge, and how was it positioned by the end?",
+    "answer": "above then above",
+    "evidence": {
+      "start_relation": "above",
+      "end_relation": "above"
+    },
+    "video_id": "P01-20240203-184214"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "mug",
+    "reference_object": "milk_bottle",
+    "time_start": 88.9,
+    "time_end": 88.9,
+    "question": "At time t=88.9s, is mug to the left or right of milk_bottle?",
+    "answer": "right",
+    "evidence": {
+      "target_world_position": [
+        -0.3907708584031343,
+        -1.544208571858438,
+        -0.5375383835152608
+      ],
+      "reference_world_position": [
+        -0.8109675094133824,
+        -1.05891366518827,
+        -0.31238362676912923
+      ]
+    },
+    "video_id": "P01-20240204-095114"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "mug",
+    "reference_object": "wooden_stirrer",
+    "time_start": 13.466666666666667,
+    "time_end": 13.466666666666667,
+    "question": "At time t=13.5s, is mug above or below wooden_stirrer?",
+    "answer": "above",
+    "evidence": {
+      "target_world_position": [
+        -0.5213257831067304,
+        -3.642630368652809,
+        -0.4823156913500059
+      ],
+      "reference_world_position": [
+        -0.1431204733096384,
+        -1.3849079050819446,
+        -0.3776909825764768
+      ]
+    },
+    "video_id": "P01-20240204-095114"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "mug",
+    "reference_object": "",
+    "time_start": 13.466666666666667,
+    "time_end": 164.33333333333334,
+    "question": "Did mug move substantially between t=13.5s and t=164.3s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 2.136
+    },
+    "video_id": "P01-20240204-095114"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "milk_bottle",
+    "reference_object": "",
+    "time_start": 7.933333333333334,
+    "time_end": 59.93333333333333,
+    "question": "Did milk_bottle move substantially between t=7.9s and t=59.9s?",
+    "answer": "no",
+    "evidence": {
+      "displacement_m": 0.193
+    },
+    "video_id": "P01-20240204-095114"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "wooden_stirrer",
+    "reference_object": "",
+    "time_start": 103.0,
+    "time_end": 159.9,
+    "question": "Did wooden_stirrer move substantially between t=103.0s and t=159.9s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 1.78
+    },
+    "video_id": "P01-20240204-095114"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "mug",
+    "reference_object": "milk_bottle",
+    "time_start": 13.466666666666667,
+    "time_end": 164.33333333333334,
+    "question": "How did the position of mug relative to milk_bottle change from the beginning to the end of its motion?",
+    "answer": "unchanged",
+    "evidence": {
+      "start_relation": "above",
+      "end_relation": "above"
+    },
+    "video_id": "P01-20240204-095114"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "mug",
+    "reference_object": "milk_bottle",
+    "time_start": 13.466666666666667,
+    "time_end": 164.33333333333334,
+    "question": "Did mug become closer to or farther from milk_bottle across the motion interval?",
+    "answer": "closer",
+    "evidence": {
+      "start_distance_m": 2.473,
+      "end_distance_m": 0.561
+    },
+    "video_id": "P01-20240204-095114"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "mug",
+    "reference_object": "",
+    "time_start": 13.466666666666667,
+    "time_end": 164.33333333333334,
+    "question": "Was mug visible during the interval from t=13.5s to t=164.3s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 8
+    },
+    "video_id": "P01-20240204-095114"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "milk_bottle",
+    "reference_object": "",
+    "time_start": 7.933333333333334,
+    "time_end": 59.93333333333333,
+    "question": "Was milk_bottle visible during the interval from t=7.9s to t=59.9s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 6
+    },
+    "video_id": "P01-20240204-095114"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "wooden_stirrer",
+    "reference_object": "",
+    "time_start": 103.0,
+    "time_end": 159.9,
+    "question": "Was wooden_stirrer visible during the interval from t=103.0s to t=159.9s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 4
+    },
+    "video_id": "P01-20240204-095114"
+  },
+  {
+    "question_type": "historical_current_update",
+    "difficulty": "medium",
+    "target_object": "mug",
+    "reference_object": "milk_bottle",
+    "time_start": 13.466666666666667,
+    "time_end": 164.33333333333334,
+    "question": "At the start of the mug motion, how was milk_bottle positioned relative to mug, and how was it positioned by the end?",
+    "answer": "above then above",
+    "evidence": {
+      "start_relation": "above",
+      "end_relation": "above"
+    },
+    "video_id": "P01-20240204-095114"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "small_tupperware",
+    "reference_object": "glass",
+    "time_start": 162.56666666666666,
+    "time_end": 162.56666666666666,
+    "question": "At time t=162.6s, is small_tupperware to the left or right of glass?",
+    "answer": "right",
+    "evidence": {
+      "target_world_position": [
+        -0.4174958773040941,
+        -3.2721531581160606,
+        -0.542170609779606
+      ],
+      "reference_world_position": [
+        -0.3697337248833022,
+        -3.2756803750576458,
+        -0.45966068106856367
+      ]
+    },
+    "video_id": "P01-20240204-120411"
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "small_tupperware",
+    "reference_object": "salt_bottle",
+    "time_start": 116.2,
+    "time_end": 116.2,
+    "question": "At time t=116.2s, is small_tupperware above or below salt_bottle?",
+    "answer": "above",
+    "evidence": {
+      "target_world_position": [
+        -1.6206639393726359,
+        -2.5553726978451468,
+        -0.9505018743114213
+      ],
+      "reference_world_position": [
+        -1.756144316197331,
+        -1.7609545767223598,
+        -0.36559712009902734
+      ]
+    },
+    "video_id": "P01-20240204-120411"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "small_tupperware",
+    "reference_object": "",
+    "time_start": 116.2,
+    "time_end": 208.93333333333334,
+    "question": "Did small_tupperware move substantially between t=116.2s and t=208.9s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 1.645
+    },
+    "video_id": "P01-20240204-120411"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "glass",
+    "reference_object": "",
+    "time_start": 133.96666666666667,
+    "time_end": 217.63333333333333,
+    "question": "Did glass move substantially between t=134.0s and t=217.6s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 0.847
+    },
+    "video_id": "P01-20240204-120411"
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "salt_bottle",
+    "reference_object": "",
+    "time_start": 189.23333333333332,
+    "time_end": 213.6,
+    "question": "Did salt_bottle move substantially between t=189.2s and t=213.6s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 1.555
+    },
+    "video_id": "P01-20240204-120411"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "small_tupperware",
+    "reference_object": "glass",
+    "time_start": 116.2,
+    "time_end": 208.93333333333334,
+    "question": "How did the position of small_tupperware relative to glass change from the beginning to the end of its motion?",
+    "answer": "changed",
+    "evidence": {
+      "start_relation": "right",
+      "end_relation": "above"
+    },
+    "video_id": "P01-20240204-120411"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "small_tupperware",
+    "reference_object": "glass",
+    "time_start": 116.2,
+    "time_end": 208.93333333333334,
+    "question": "Did small_tupperware become closer to or farther from glass across the motion interval?",
+    "answer": "closer",
+    "evidence": {
+      "start_distance_m": 2.081,
+      "end_distance_m": 0.162
+    },
+    "video_id": "P01-20240204-120411"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "small_tupperware",
+    "reference_object": "",
+    "time_start": 116.2,
+    "time_end": 208.93333333333334,
+    "question": "Was small_tupperware visible during the interval from t=116.2s to t=208.9s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 8
+    },
+    "video_id": "P01-20240204-120411"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "glass",
+    "reference_object": "",
+    "time_start": 133.96666666666667,
+    "time_end": 217.63333333333333,
+    "question": "Was glass visible during the interval from t=134.0s to t=217.6s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 7
+    },
+    "video_id": "P01-20240204-120411"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "salt_bottle",
+    "reference_object": "",
+    "time_start": 189.23333333333332,
+    "time_end": 213.6,
+    "question": "Was salt_bottle visible during the interval from t=189.2s to t=213.6s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 4
+    },
+    "video_id": "P01-20240204-120411"
+  },
+  {
+    "question_type": "historical_current_update",
+    "difficulty": "medium",
+    "target_object": "small_tupperware",
+    "reference_object": "glass",
+    "time_start": 116.2,
+    "time_end": 208.93333333333334,
+    "question": "At the start of the small_tupperware motion, how was glass positioned relative to small_tupperware, and how was it positioned by the end?",
+    "answer": "right then above",
+    "evidence": {
+      "start_relation": "right",
+      "end_relation": "above"
+    },
+    "video_id": "P01-20240204-120411"
+  }
+]

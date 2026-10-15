@@ -1,0 +1,27 @@
+object_id,object_name,timestamp,x,y,z,visible,fixture
+cone,cone,95.933,-1.547642,-2.907554,-0.261353,1,mid-air
+cone,cone,97.433,-1.583890,-2.893038,-0.336190,1,mid-air
+cone,cone,316.967,-1.583449,-2.896508,-0.315765,1,P01_counter.008
+cone,cone,327.300,-0.422831,-3.647809,-0.509051,1,P01_counter.004
+glass,glass,353.367,-0.115678,-3.387968,0.280525,1,P01_cupboard.009
+glass,glass,357.000,-1.509971,-3.035031,-0.517111,1,P01_counter.007
+glass,glass,359.500,-1.527301,-3.040329,-0.556088,1,P01_counter.007
+glass,glass,368.200,-0.411818,-1.643234,-0.564058,1,P01_counter.001
+juicer_bowl,juicer bowl,357.500,-1.644614,-2.849024,-0.442051,1,P01_counter.008
+juicer_bowl,juicer bowl,389.600,-0.155122,-3.879106,-0.516231,1,P01_counter.004
+knife,knife,183.767,-1.607017,-2.503901,-0.569546,1,P01_counter.008
+knife,knife,187.200,-1.625366,-2.468906,-0.554473,1,P01_counter.008
+knife,knife,221.800,-1.632602,-2.492296,-0.577102,1,P01_counter.008
+knife,knife,224.900,-1.608042,-2.483881,-0.530056,1,P01_counter.008
+knife,knife,255.300,-1.646321,-2.485787,-0.570406,1,P01_counter.008
+knife,knife,258.900,-1.615459,-2.495211,-0.563490,1,P01_counter.008
+knife,knife,303.067,-1.623096,-2.477687,-0.584647,1,P01_counter.008
+knife,knife,315.767,-1.612001,-2.593967,-0.593338,1,P01_counter.008
+lid_of_milk_frother,lid of milk frother,179.000,-0.507022,-1.770013,-0.549167,1,P01_counter.001
+lid_of_milk_frother,lid of milk frother,179.867,-0.358569,-1.703001,-0.399828,1,P01_counter.001
+orange_towel,orange towel,180.700,-0.558019,-2.325116,-0.757352,1,P01_oven.001
+orange_towel,orange towel,182.300,-0.582748,-2.303006,-0.765569,1,P01_oven.001
+orange_towel,orange towel,349.667,-0.570996,-2.335537,-0.778077,1,P01_oven.001
+orange_towel,orange towel,351.067,-0.583939,-2.341453,-0.810651,1,P01_oven.001
+orange_towel,orange towel,391.700,-0.575240,-2.338227,-0.799111,1,P01_oven.001
+orange_towel,orange towel,394.367,-0.687857,-2.344032,-0.744814,1,P01_oven.001

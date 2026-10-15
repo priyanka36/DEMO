@@ -1,0 +1,27 @@
+{
+  "suite_name": "hd_epic_video_vlm_baselines",
+  "description": "Recommended local open VLM baselines for HD-EPIC video QA. Keep text-only LLMs as separate baselines.",
+  "models": [
+    {
+      "name": "qwen3-vl:8b",
+      "alias": "Qwen3-VL-8B",
+      "family": "qwen",
+      "role": "primary_open_vlm",
+      "notes": "Strong long-video understanding baseline with manageable local footprint."
+    },
+    {
+      "name": "internvl2.5:8b",
+      "alias": "InternVL2.5-8B",
+      "family": "internvl",
+      "role": "strong_open_vlm",
+      "notes": "Strong video benchmark baseline with a different architecture than Qwen."
+    },
+    {
+      "name": "llava-onevision:7b",
+      "alias": "LLaVA-OneVision-7B",
+      "family": "llava",
+      "role": "different_architecture",
+      "notes": "Useful inter-family comparison for video and multimodal reasoning."
+    }
+  ]
+}

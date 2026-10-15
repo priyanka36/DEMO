@@ -1,0 +1,42 @@
+[
+  {
+    "question_type": "affordance_spatial",
+    "template": "Which fixture is most compatible with the {object}'s current location?",
+    "description": "Uses object category and fixture compatibility to interpret current spatial affordance."
+  },
+  {
+    "question_type": "interaction_readiness",
+    "template": "Are {object_a} and {object_b} arranged in a way that supports a plausible interaction?",
+    "description": "Detects whether two relevant items are in a functionally sensible arrangement for interaction."
+  },
+  {
+    "question_type": "historical_functional_state",
+    "template": "Did the functional context of {object} change from {start_fixture} to {latest_fixture}?",
+    "description": "Captures change in object function over time using fixture transitions."
+  },
+  {
+    "question_type": "interaction_consequence",
+    "template": "After {object_a} moved, which previously valid spatial relation is no longer true with {object_b}?",
+    "description": "Tests whether a prior spatial relation becomes invalid after manipulation."
+  },
+  {
+    "question_type": "selective_relation_revision",
+    "template": "Object {object_a} moved. Which relations involving {object_a} should be updated, and which relations among the stationary objects should remain unchanged?",
+    "description": "Selective update rule for changed vs unchanged relations."
+  },
+  {
+    "question_type": "ego_motion_affordance_stability",
+    "template": "The object appears somewhat closer after motion, but did its functional relationship to the relevant fixture actually change?",
+    "description": "Distinguishes object movement from genuine functional affordance change."
+  },
+  {
+    "question_type": "persistent_affordance_occlusion",
+    "template": "The {object} became temporarily occluded after movement. Is its affordance at the current fixture still reasonable?",
+    "description": "Tests functional memory and affordance persistence under temporary occlusion."
+  },
+  {
+    "question_type": "counterfactual_reasoning",
+    "template": "If the observer moved but {object} stayed fixed, should the world-level affordance relation to its fixture meaningfully change?",
+    "description": "Tests whether object-level affordance is stable under observer-only motion."
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "num_videos": 20,
+  "num_questions": 233,
+  "question_types": {
+    "affordance_spatial": 74,
+    "counterfactual_reasoning": 38,
+    "ego_motion_affordance_stability": 14,
+    "historical_functional_state": 29,
+    "interaction_consequence": 12,
+    "interaction_readiness": 6,
+    "persistent_affordance_occlusion": 56,
+    "selective_relation_revision": 4
+  }
+}

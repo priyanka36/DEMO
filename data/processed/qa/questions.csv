@@ -1,0 +1,11 @@
+question_type,difficulty,target_object,reference_object,time_start,time_end,question,answer,evidence
+static_spatial,easy,glass,juicer_bowl,357.5,357.5,"At time t=357.5s, is glass to the left or right of juicer_bowl?",left,"{""reference_world_position"": [-1.6446137118040272, -2.8490239080260626, -0.4420513798406772], ""target_world_position"": [-1.5099713535103105, -3.035031441054815, -0.5171114151072722]}"
+static_spatial,easy,knife,orange_towel,183.8,183.8,"At time t=183.8s, is knife to the left or right of orange_towel?",right,"{""reference_world_position"": [-0.5580189318133515, -2.3251161887470575, -0.7573516289304745], ""target_world_position"": [-1.6070167774826878, -2.503901318417223, -0.5695462058282426]}"
+object_motion,medium,glass,,353.3666666666667,368.2,Did glass move substantially between t=353.4s and t=368.2s?,yes,"{""displacement_m"": 1.961}"
+object_motion,medium,knife,,183.76666666666668,315.76666666666665,Did knife move substantially between t=183.8s and t=315.8s?,no,"{""displacement_m"": 0.093}"
+object_motion,medium,juicer_bowl,,357.5,389.6,Did juicer_bowl move substantially between t=357.5s and t=389.6s?,yes,"{""displacement_m"": 1.812}"
+relation_change,medium,glass,juicer_bowl,357.5,389.6,How did the position of glass relative to juicer_bowl change from the beginning to the end of the movement?,changed,"{""end_relation"": ""below"", ""start_relation"": ""above""}"
+visibility_occlusion,easy,glass,,353.3666666666667,368.2,Was glass visible during the interval from t=353.4s to t=368.2s?,yes,"{""samples"": 4}"
+visibility_occlusion,easy,knife,,183.76666666666668,315.76666666666665,Was knife visible during the interval from t=183.8s to t=315.8s?,yes,"{""samples"": 8}"
+visibility_occlusion,easy,orange_towel,,180.7,394.3666666666667,Was orange_towel visible during the interval from t=180.7s to t=394.4s?,yes,"{""samples"": 6}"
+historical_current_update,medium,glass,juicer_bowl,357.5,389.6,"At the start of the juicer_bowl movement, how was glass positioned relative to juicer_bowl, and how did that relation change by the end?",above then below,"{""end_relation"": ""below"", ""start_relation"": ""above""}"

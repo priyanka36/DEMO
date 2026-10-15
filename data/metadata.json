@@ -1,0 +1,21 @@
+{
+  "sequence_id": "P01-20240202-110250",
+  "dataset": "HD-EPIC",
+  "subset": "single_video_minimal_real_subset",
+  "video_path": "/home/priyanka/VQA/pilot_data/raw/HD-EPIC/Videos/P01/P01-20240202-110250.mp4",
+  "gaze_archive": "/home/priyanka/VQA/pilot_data/raw/HD-EPIC/SLAM-and-Gaze/P01/GAZE_HAND/mps_P01-20240202-110250_vrs.zip",
+  "annotation_source": "/tmp/hd-epic-annotations/scene-and-object-movements",
+  "notes": [
+    "This pilot uses the smallest viable real HD-EPIC subset: one video and the official gaze bundle.",
+    "The benchmark object tracks are extracted from the official scene-and-object movement annotations.",
+    "No per-frame camera trajectory was available in this minimal download; the pilot therefore focuses on object-level spatiotemporal reasoning."
+  ],
+  "object_names": [
+    "glass",
+    "juicer bowl",
+    "cone",
+    "knife",
+    "orange towel",
+    "lid of milk frother"
+  ]
+}

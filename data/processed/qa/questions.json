@@ -1,0 +1,152 @@
+[
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "glass",
+    "reference_object": "juicer_bowl",
+    "time_start": 357.5,
+    "time_end": 357.5,
+    "question": "At time t=357.5s, is glass to the left or right of juicer_bowl?",
+    "answer": "left",
+    "evidence": {
+      "target_world_position": [
+        -1.5099713535103105,
+        -3.035031441054815,
+        -0.5171114151072722
+      ],
+      "reference_world_position": [
+        -1.6446137118040272,
+        -2.8490239080260626,
+        -0.4420513798406772
+      ]
+    }
+  },
+  {
+    "question_type": "static_spatial",
+    "difficulty": "easy",
+    "target_object": "knife",
+    "reference_object": "orange_towel",
+    "time_start": 183.8,
+    "time_end": 183.8,
+    "question": "At time t=183.8s, is knife to the left or right of orange_towel?",
+    "answer": "right",
+    "evidence": {
+      "target_world_position": [
+        -1.6070167774826878,
+        -2.503901318417223,
+        -0.5695462058282426
+      ],
+      "reference_world_position": [
+        -0.5580189318133515,
+        -2.3251161887470575,
+        -0.7573516289304745
+      ]
+    }
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "glass",
+    "reference_object": "",
+    "time_start": 353.3666666666667,
+    "time_end": 368.2,
+    "question": "Did glass move substantially between t=353.4s and t=368.2s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 1.961
+    }
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "knife",
+    "reference_object": "",
+    "time_start": 183.76666666666668,
+    "time_end": 315.76666666666665,
+    "question": "Did knife move substantially between t=183.8s and t=315.8s?",
+    "answer": "no",
+    "evidence": {
+      "displacement_m": 0.093
+    }
+  },
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "juicer_bowl",
+    "reference_object": "",
+    "time_start": 357.5,
+    "time_end": 389.6,
+    "question": "Did juicer_bowl move substantially between t=357.5s and t=389.6s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 1.812
+    }
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "glass",
+    "reference_object": "juicer_bowl",
+    "time_start": 357.5,
+    "time_end": 389.6,
+    "question": "How did the position of glass relative to juicer_bowl change from the beginning to the end of the movement?",
+    "answer": "changed",
+    "evidence": {
+      "start_relation": "above",
+      "end_relation": "below"
+    }
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "glass",
+    "reference_object": "",
+    "time_start": 353.3666666666667,
+    "time_end": 368.2,
+    "question": "Was glass visible during the interval from t=353.4s to t=368.2s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 4
+    }
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "knife",
+    "reference_object": "",
+    "time_start": 183.76666666666668,
+    "time_end": 315.76666666666665,
+    "question": "Was knife visible during the interval from t=183.8s to t=315.8s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 8
+    }
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "orange_towel",
+    "reference_object": "",
+    "time_start": 180.7,
+    "time_end": 394.3666666666667,
+    "question": "Was orange_towel visible during the interval from t=180.7s to t=394.4s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 6
+    }
+  },
+  {
+    "question_type": "historical_current_update",
+    "difficulty": "medium",
+    "target_object": "glass",
+    "reference_object": "juicer_bowl",
+    "time_start": 357.5,
+    "time_end": 389.6,
+    "question": "At the start of the juicer_bowl movement, how was glass positioned relative to juicer_bowl, and how did that relation change by the end?",
+    "answer": "above then below",
+    "evidence": {
+      "start_relation": "above",
+      "end_relation": "below"
+    }
+  }
+]
