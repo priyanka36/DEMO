@@ -5,4 +5,6 @@ __pycache__/
 data/raw/
 pilot_data/
 results/
+full_chat_transcript.md
+full_chat_transcript.pdf
 !.gitignore

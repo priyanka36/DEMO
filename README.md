@@ -2,6 +2,29 @@
 
 This workspace contains a compact, real-data HD-EPIC benchmark built from the official scene/object annotation metadata and selected raw video downloads.
 
+## Project website (GitHub Pages)
+
+The static project page is in [index.html](index.html) at the repository root. It includes a project overview, three real video examples with expandable answers, and links to the benchmark. No installation or build step is needed. Open the HTML file directly, or preview it from the repository root:
+
+```bash
+python -m http.server 8000
+```
+
+Then visit `http://localhost:8000`.
+
+To publish the page using the current repository:
+
+1. Commit and push `index.html`, `.nojekyll`, `docs/`, and this README to the `main` branch of `priyanka36/DEMO`.
+2. Open the repository on GitHub and select **Settings → Pages**.
+3. Under **Build and deployment**, select **Deploy from a branch**, choose **main** and **/(root)**, then **Save**.
+4. Once GitHub finishes deployment, the project page will be at **https://priyanka36.github.io/DEMO/**.
+
+These are the [GitHub Pages branch publishing instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site). To use `https://priyanka36.github.io/` without the project suffix, use a repository named `priyanka36.github.io` instead, copying `index.html`, `.nojekyll`, and `docs/` into its publishing root.
+
+Edit the title and page content in `index.html`, and the styling in `docs/style.css`. Add the confirmed author list, affiliations, and paper link when available. If you rename the repository or change the default branch, update the GitHub links in the HTML.
+
+The layout is inspired by the [GIRAFFE CVPR project page](https://m-niemeyer.github.io/project-pages/giraffe/index.html); the HTML and CSS are original. The six JPEGs in `docs/assets/` are 640-pixel frames extracted from the local HD-EPIC MP4s at the exact start/end timestamps of geometry question rows 24, 72, and 150 (zero-based). `docs/assets/examples.json` preserves these three source records, including their sequence IDs and evidence. The page displays rounded timestamps and credits the [HD-EPIC dataset](https://hd-epic.github.io/site/); the images remain subject to the source dataset’s terms. Update the displayed counts and examples if you regenerate the benchmark.
+
 ## Current benchmark
 - Geometry benchmark output: [benchmark/geometry](benchmark/geometry)
 - Affordance extension: [benchmark/affordance](benchmark/affordance)

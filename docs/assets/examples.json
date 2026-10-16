@@ -1,0 +1,45 @@
+[
+  {
+    "question_type": "object_motion",
+    "difficulty": "medium",
+    "target_object": "spatula",
+    "reference_object": "",
+    "time_start": 101.7,
+    "time_end": 758.5666666666667,
+    "question": "Did spatula move substantially between t=101.7s and t=758.6s?",
+    "answer": "yes",
+    "evidence": {
+      "displacement_m": 1.293
+    },
+    "video_id": "P01-20240202-161948"
+  },
+  {
+    "question_type": "relation_change",
+    "difficulty": "medium",
+    "target_object": "mug",
+    "reference_object": "center_piece",
+    "time_start": 13.433333333333334,
+    "time_end": 145.56666666666666,
+    "question": "Did mug become closer to or farther from center_piece across the motion interval?",
+    "answer": "farther",
+    "evidence": {
+      "start_distance_m": 0.488,
+      "end_distance_m": 2.08
+    },
+    "video_id": "P01-20240203-093333"
+  },
+  {
+    "question_type": "visibility_occlusion",
+    "difficulty": "easy",
+    "target_object": "red_glove",
+    "reference_object": "",
+    "time_start": 20.1,
+    "time_end": 128.56666666666666,
+    "question": "Was red_glove visible during the interval from t=20.1s to t=128.6s?",
+    "answer": "yes",
+    "evidence": {
+      "samples": 8
+    },
+    "video_id": "P01-20240203-152323"
+  }
+]

@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An HD-EPIC benchmark pilot for 3D spatial, temporal, and affordance-aware visual question answering. Explore real video examples and annotation-derived answers.">
+  <meta name="theme-color" content="#155e63">
+  <title>HD-EPIC VQA | Spatiotemporal Reasoning Benchmark</title>
+  <link rel="stylesheet" href="docs/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="topbar">
+    <a class="wordmark" href="#">HD-EPIC <span>/ VQA pilot</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#overview">Overview</a>
+      <a href="#examples">Examples</a>
+      <a href="#resources">Resources</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="title">
+      <p class="eyebrow">Egocentric vision · Research pilot</p>
+      <!-- Add the approved author list and affiliations here when available. -->
+      <h1 id="title">Reasoning about objects<br>across <span>space and time.</span></h1>
+      <p class="subtitle">A 3D spatiotemporal question-answering benchmark<br class="desktop-break"> built from HD-EPIC object tracks.</p>
+      <div class="actions">
+        <a class="button primary" href="https://github.com/priyanka36/DEMO">View code <span aria-hidden="true">↗</span></a>
+        <a class="button" href="#examples">Explore examples <span aria-hidden="true">↓</span></a>
+        <a class="button" href="https://hd-epic.github.io/site/">HD-EPIC dataset <span aria-hidden="true">↗</span></a>
+      </div>
+      <figure class="teaser">
+        <div class="filmstrip">
+          <div><img src="docs/assets/spatula-start.jpg" width="640" height="640" alt="Egocentric kitchen frame from the spatula sequence at 101.7 seconds"><span>01 / Object motion</span></div>
+          <div><img src="docs/assets/mug-start.jpg" width="640" height="640" alt="Egocentric kitchen frame from the mug sequence at 13.4 seconds"><span>02 / Changing relations</span></div>
+          <div><img src="docs/assets/glove-start.jpg" width="640" height="640" alt="A hand reaching toward a red oven glove at 20.1 seconds"><span>03 / Visibility over time</span></div>
+        </div>
+        <figcaption>Everyday scenes. Questions grounded in 3D object annotations.<br>Frames from three HD-EPIC sequences used in this pilot.</figcaption>
+      </figure>
+    </section>
+
+    <section id="overview" class="overview section" aria-labelledby="overview-title">
+      <p class="eyebrow">The benchmark</p>
+      <h2 id="overview-title">From seeing objects to tracking change</h2>
+      <p class="abstract">Understanding an egocentric video requires more than recognizing what is in a frame. It also requires following where objects move, how their relationships change, and what remains visible over time. This pilot turns HD-EPIC scene and object annotations into controlled questions with explicit temporal intervals and geometric evidence. An affordance-aware extension adds questions about object function, fixture compatibility, and interaction readiness.</p>
+      <dl class="stats">
+        <div><dt>20</dt><dd>Annotated video IDs</dd></div>
+        <div><dt>220</dt><dd>Geometry questions</dd></div>
+        <div><dt>233</dt><dd>Affordance questions</dd></div>
+      </dl>
+      <p class="note">Counts describe the current benchmark exports, not evaluation results or the size of the full HD-EPIC dataset.</p>
+    </section>
+
+    <section id="examples" class="section" aria-labelledby="examples-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">A closer look</p><h2 id="examples-title">Three questions from the pilot</h2></div>
+        <a class="text-link" href="docs/assets/examples.json" download>Download examples <span aria-hidden="true">↓</span></a>
+      </div>
+      <p class="section-intro">Compare the sampled frames, then reveal the annotation-derived answer. Frames provide visual context; answers come from the stored object tracks.</p>
+
+      <article class="example" aria-labelledby="motion-title">
+        <div class="frame-pair">
+          <figure><img src="docs/assets/spatula-start.jpg" width="640" height="640" loading="lazy" alt="Kitchen view at the start of the spatula interval"><figcaption>Start <span>101.7 s</span></figcaption></figure>
+          <figure><img src="docs/assets/spatula-end.jpg" width="640" height="640" loading="lazy" alt="Kitchen view at the end of the spatula interval"><figcaption>End <span>758.6 s</span></figcaption></figure>
+        </div>
+        <div class="question">
+          <p class="example-type">01 <span>Object motion</span></p>
+          <h3 id="motion-title">Did spatula move substantially between t=101.7s and t=758.6s?</h3>
+          <p class="source">Sequence P01-20240202-161948</p>
+          <details>
+            <summary>Reveal answer &amp; evidence</summary>
+            <div class="answer"><strong>Yes</strong><p>The stored endpoint displacement is <b>1.293 m</b>, exceeding the geometry pilot’s 0.25 m motion threshold.</p></div>
+          </details>
+        </div>
+      </article>
+
+      <article class="example" aria-labelledby="relation-title">
+        <div class="frame-pair">
+          <figure><img src="docs/assets/mug-start.jpg" width="640" height="640" loading="lazy" alt="Kitchen view at the start of the mug interval"><figcaption>Start <span>13.4 s</span></figcaption></figure>
+          <figure><img src="docs/assets/mug-end.jpg" width="640" height="640" loading="lazy" alt="Kitchen view at the end of the mug interval"><figcaption>End <span>145.6 s</span></figcaption></figure>
+        </div>
+        <div class="question">
+          <p class="example-type">02 <span>Relation change</span></p>
+          <h3 id="relation-title">Did mug become closer to or farther from center_piece across the motion interval?</h3>
+          <p class="source">Sequence P01-20240203-093333</p>
+          <details>
+            <summary>Reveal answer &amp; evidence</summary>
+            <div class="answer"><strong>Farther</strong><p>The stored distance increases from <b>0.488 m</b> to <b>2.080 m</b> between the annotated endpoints.</p></div>
+          </details>
+        </div>
+      </article>
+
+      <article class="example" aria-labelledby="visibility-title">
+        <div class="frame-pair">
+          <figure><img src="docs/assets/glove-start.jpg" width="640" height="640" loading="lazy" alt="A hand reaching for a red oven glove near the sink"><figcaption>Start <span>20.1 s</span></figcaption></figure>
+          <figure><img src="docs/assets/glove-end.jpg" width="640" height="640" loading="lazy" alt="Kitchen view at the end of the red glove interval"><figcaption>End <span>128.6 s</span></figcaption></figure>
+        </div>
+        <div class="question">
+          <p class="example-type">03 <span>Visibility over time</span></p>
+          <h3 id="visibility-title">Was red_glove visible during the interval from t=20.1s to t=128.6s?</h3>
+          <p class="source">Sequence P01-20240203-152323</p>
+          <details>
+            <summary>Reveal answer &amp; evidence</summary>
+            <div class="answer"><strong>Yes</strong><p>The benchmark records <b>8 annotation samples</b>. These establish sampled visibility, not continuous visibility throughout the interval.</p></div>
+          </details>
+        </div>
+      </article>
+      <p class="note">Question wording and answers are preserved from the geometry export. Object identifiers follow the annotations; the displayed frames are sampled at the question’s start and end times.</p>
+    </section>
+
+    <section class="method section" aria-labelledby="method-title">
+      <p class="eyebrow">How it works</p>
+      <h2 id="method-title">Annotations → tracks → questions</h2>
+      <ol class="steps">
+        <li><span>01</span><h3>Collect annotations</h3><p>Read scene and object movement metadata from HD-EPIC and select object tracks for each sequence.</p></li>
+        <li><span>02</span><h3>Measure change</h3><p>Use timestamped 3D positions to compute displacement, relative position, and changes in distance.</p></li>
+        <li><span>03</span><h3>Ask and evaluate</h3><p>Export questions, answers, and evidence. Evaluate text baselines or sample video frames for VLMs.</p></li>
+      </ol>
+      <p class="note">The geometry export covers static spatial relations, object motion, relation change, visibility, and historical updates. This is an annotation-driven pilot; sparse samples and coordinate conventions affect how its answers should be interpreted.</p>
+    </section>
+
+    <section id="resources" class="section resources" aria-labelledby="resources-title">
+      <p class="eyebrow">Explore the project</p>
+      <h2 id="resources-title">Code, questions, and source data</h2>
+      <div class="resource-links">
+        <a href="https://github.com/priyanka36/DEMO"><span>01 / Repository</span>Code &amp; instructions <span aria-hidden="true">↗</span></a>
+        <a href="https://github.com/priyanka36/DEMO/tree/main/benchmark/geometry"><span>02 / Geometry</span>Questions &amp; tracks <span aria-hidden="true">↗</span></a>
+        <a href="https://github.com/priyanka36/DEMO/tree/main/benchmark/affordance"><span>03 / Affordance</span>Extended benchmark <span aria-hidden="true">↗</span></a>
+      </div>
+      <p class="credits">Video frames and source annotations are from <a href="https://hd-epic.github.io/site/">HD-EPIC</a> (Perrett et al., CVPR 2025). Please follow the source dataset’s attribution and usage terms. This page describes a separate benchmark pilot built on that dataset.</p>
+    </section>
+  </main>
+
+  <footer><span>HD-EPIC / VQA pilot</span><span>Project-page layout inspired by <a href="https://m-niemeyer.github.io/project-pages/giraffe/index.html">GIRAFFE</a>.</span></footer>
+</body>
+</html>
